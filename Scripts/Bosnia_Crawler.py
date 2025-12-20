@@ -57,7 +57,7 @@ def getSpeechs(speech_ids: list, language: str):
 
 def singleCrawl(language: str, fileName):
   speech_ids = getPresidencyPages(language=language)
-  print("Speech Ids:" + len(speech_ids))
+  print("Speech Ids:" + str(len(speech_ids)))
   df = getSpeechs(speech_ids, language)
   df.to_csv(fileName, encoding="utf-8")
   print("Done")
