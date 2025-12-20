@@ -1,10 +1,10 @@
-# import pandas as pd
-# import numpy as np
-# import requests
-# import json
-# import re
-# from bs4 import BeautifulSoup
-# from newsplease import NewsPlease
+import pandas as pd
+import numpy as np
+import requests
+import json
+import re
+from bs4 import BeautifulSoup
+from newsplease import NewsPlease
 # from easynmt import EasyNMT
 # from torch import cuda
 # import nltk
