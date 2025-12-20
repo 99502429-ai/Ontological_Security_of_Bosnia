@@ -8,4 +8,25 @@ date: "2025-11-24"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{r label=libraries}
+library(tidyverse)
+library(quanteda)
+library(quanteda.textmodels)
+library(quanteda.textplots)
+library(quanteda.textstats)
+library(topicmodels)
+library(sentimentr)
+library(rlist)
+```
+# Importing & Corpus Creation
 
+Importing 
+
+```{r label=import_corpus}
+
+
+
+
+
+
+```
