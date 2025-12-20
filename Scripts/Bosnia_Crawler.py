@@ -22,12 +22,16 @@ def getPresidencyPages(language: str) -> list:
     r = requests.get(page)
     soup = BeautifulSoup(r.text, "html.parser")
     tags = soup.find_all('a', href=re.compile(r'/gov/\?id=\d+'))
-    for tag in tags:
-      id = re.search(r'\d{5,}', str(tag))
-      if id: # Check if id is not None
-        speech_ids.append(id.group())
-      else:
-        break   
+    if len(tags) > 0:
+      for tag in tags:
+        id = re.search(r'\d+', str(tag))
+        if id: # Check if id is not None
+          speech_ids.append(id.group())
+        else:
+          continue  
+    else:
+      break
+
     index += 1
   return speech_ids
 
