@@ -1,13 +1,13 @@
-import pandas as pd
-import numpy as np
-import requests
-import json
-import re
-from bs4 import BeautifulSoup
-from newsplease import NewsPlease
-from easynmt import EasyNMT
-from torch import cuda
-import nltk
+# import pandas as pd
+# import numpy as np
+# import requests
+# import json
+# import re
+# from bs4 import BeautifulSoup
+# from newsplease import NewsPlease
+# from easynmt import EasyNMT
+# from torch import cuda
+# import nltk
 
 # Languages: bs-BA, hr-HR, sr-SP-Cyrl, en-US
 
@@ -41,7 +41,7 @@ def getSpeechs(speech_ids: list, language: str):
   publish_date = []
   content = []
   for id in speech_ids:
-    speech_url = 'https://www.predsjednistvobih.ba/gov/default.aspx?id=' + id + '&langTag=' + language
+    speech_url = 'https://www.predsjednistvobih.ba/gov/default.aspx?id=' + str(id) + '&langTag=' + language
     speech = NewsPlease.from_url(speech_url)
     titles.append(speech.title)
     speech_urls.append(speech_url)
