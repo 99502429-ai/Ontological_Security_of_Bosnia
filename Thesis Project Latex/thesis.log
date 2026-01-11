@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  11 JAN 2026 14:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  11 JAN 2026 15:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1057,9 +1057,9 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'iso-numeric.dbx' found.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-iso690/iso-numeric.dbx
-File: iso-numeric.dbx 2022/03/20 v0.4.1 ISO 690 biblatex data model extension
+Package biblatex Info: ... file 'iso-authoryear.dbx' found.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-iso690/iso-authoryear.dbx
+File: iso-authoryear.dbx 2022/03/20 v0.4.1 ISO 690 biblatex data model extension
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
@@ -1176,10 +1176,10 @@ Package biblatex Info: ... file 'blx-natbib.def' found.
 File: blx-natbib.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
 )
-Package biblatex Info: Trying to load bibliography style 'iso-numeric'...
-Package biblatex Info: ... file 'iso-numeric.bbx' found.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-iso690/iso-numeric.bbx
-File: iso-numeric.bbx 2022/03/20 v0.4.1 ISO 690 biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'iso-authoryear'...
+Package biblatex Info: ... file 'iso-authoryear.bbx' found.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-iso690/iso-authoryear.bbx
+File: iso-authoryear.bbx 2022/03/20 v0.4.1 ISO 690 biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'iso'...
 Package biblatex Info: ... file 'iso.bbx' found.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-iso690/iso.bbx
@@ -1199,26 +1199,27 @@ Package biblatex Info: Delimiter 'multinamedelim' in context '' already defined,
 Package biblatex Info: Delimiter 'finalnamedelim' in context '' already defined, overwriting.
 Package biblatex Info: Delimiter 'editortypedelim' in context '' already defined, overwriting.
 Package biblatex Info: Delimiter 'authortypedelim' in context '' already defined, overwriting.
-))
-Package biblatex Info: Trying to load citation style 'iso-numeric'...
-Package biblatex Info: ... file 'iso-numeric.cbx' found.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-iso690/iso-numeric.cbx
-File: iso-numeric.cbx 2022/03/20 v0.4.1 ISO 690 biblatex citation style
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
+)
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'bib' already defined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'biblist' already defined, overwriting.
+)
+Package biblatex Info: Trying to load citation style 'iso-authoryear'...
+Package biblatex Info: ... file 'iso-authoryear.cbx' found.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-iso690/iso-authoryear.cbx
+File: iso-authoryear.cbx 2022/03/20 v0.4.1 ISO 690 biblatex citation style
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
+File: authoryear.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
 Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load citation style 'iso-fullcite'...
 Package biblatex Info: ... file 'iso-fullcite.cbx' found.
@@ -1227,7 +1228,8 @@ File: iso-fullcite.cbx 2022/03/20 v0.4.1 ISO 690 biblatex fullcite modifications
 Package biblatex Info: Redefining '\fullcite'.
 Package biblatex Info: Redefining '\footfullcite'.
 )
-Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context '' already defined, overwriting.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
@@ -1265,7 +1267,7 @@ File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 )
 \@quotelevel=\count461
 \@quotereset=\count462
- (./thesis.aux (./title.aux))
+ (./thesis.aux (./Sections/title.aux) (./Sections/Introduction.aux) (./Sections/Research Target.aux) (./Sections/Literature Review.aux) (./Sections/Framework.aux) (./Sections/Outline.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
@@ -1364,9 +1366,9 @@ Package biblatex Info: ... file 'thesis.bbl' not found.
 No file thesis.bbl.
 Package biblatex Info: Reference section=0 on input line 121.
 Package biblatex Info: Reference segment=0 on input line 121.
-\openout2 = `title.aux'.
+\openout2 = `Sections/title.aux'.
 
-(./title.tex
+(./Sections/title.tex
 Package hyperref Info: Option `pageanchor' set `false' on input line 45.
 <img/CharlesLogo.png, id=7, 164.2938pt x 164.2938pt>
 File: img/CharlesLogo.png Graphic file (type png)
@@ -1384,8 +1386,47 @@ Package pdftex.def Info: img/CharlesLogo.png  used on input line 65.
 
 
 ]
+\openout2 = `Sections/Introduction.aux'.
 
-LaTeX Warning: Empty bibliography on input line 142.
+ (./Sections/Introduction.tex)
+
+[3
+
+
+
+]
+\openout2 = `"Sections/Research Target.aux"'.
+
+ (./Sections/Research Target.tex)
+
+[4
+
+
+
+]
+\openout2 = `"Sections/Literature Review.aux"'.
+
+ (./Sections/Literature Review.tex)
+
+[5
+
+
+
+]
+\openout2 = `Sections/Framework.aux'.
+
+ (./Sections/Framework.tex)
+
+[6
+
+
+
+]
+\openout2 = `Sections/Outline.aux'.
+
+ (./Sections/Outline.tex)
+
+LaTeX Warning: Empty bibliography on input line 146.
 
 
 Package caption Warning: Unused \captionsetup[algorithm] on input line 104.
@@ -1395,30 +1436,39 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[listing] on input line 105.
 See the caption package documentation for explanation.
 
-(./thesis.aux (./title.aux))
+(./thesis.aux (./Sections/title.aux) (./Sections/Introduction.aux) (./Sections/Research Target.aux) (./Sections/Literature Review.aux) (./Sections/Framework.aux) (./Sections/Outline.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                thesis
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27353 strings out of 473190
- 461153 string characters out of 5715801
- 1306628 words of memory out of 5000000
- 50215 multiletter control sequences out of 15000+600000
+ 27466 strings out of 473190
+ 465674 string characters out of 5715801
+ 1320491 words of memory out of 5000000
+ 50292 multiletter control sequences out of 15000+600000
  581534 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  92i,5n,95p,790b,2320s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb>
-Output written on thesis.pdf (2 pages, 192761 bytes).
+Output written on thesis.pdf (6 pages, 193486 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 49 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  14354 words of extra memory for PDF output out of 14400 (max. 10000000)
 
