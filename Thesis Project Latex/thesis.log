@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  11 JAN 2026 15:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  11 JAN 2026 15:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1459,13 +1459,13 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  27466 strings out of 473190
  465674 string characters out of 5715801
- 1320491 words of memory out of 5000000
+ 1321647 words of memory out of 5000000
  50292 multiletter control sequences out of 15000+600000
  581534 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  92i,5n,95p,790b,2320s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb>
-Output written on thesis.pdf (6 pages, 193486 bytes).
+Output written on thesis.pdf (6 pages, 193936 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  32 compressed objects within 1 object stream

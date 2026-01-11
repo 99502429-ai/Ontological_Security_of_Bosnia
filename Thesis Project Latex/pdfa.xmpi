@@ -62,7 +62,7 @@
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> 
    <dc:format>application/pdf</dc:format> 
-   <dc:title><rdf:Alt><rdf:li xml:lang="x-default">Thesis title</rdf:li></rdf:Alt></dc:title>
+   <dc:title><rdf:Alt><rdf:li xml:lang="x-default">Ontological Security of Bosnia</rdf:li></rdf:Alt></dc:title>
    <dc:creator><rdf:Seq><rdf:li>{Zachary Alan Stuck}</rdf:li></rdf:Seq></dc:creator>
    <dc:publisher><rdf:Bag><rdf:li>Charles University</rdf:li></rdf:Bag></dc:publisher>
    <dc:description><rdf:Alt><rdf:li xml:lang="x-default">Use the most precise, shortest sentences that state what problem the thesis addresses, how it is approached, pinpoint the exact result achieved, and describe the applications and significance of the results. Highlight anything novel that was discovered or improved by the thesis. Maximum length is 200 words, but try to fit into 120. Abstracts are often used for deciding if a reviewer will be suitable for the thesis; a well-written abstract thus increases the probability of getting a reviewer who will like the thesis. </rdf:li></rdf:Alt></dc:description>
@@ -79,15 +79,15 @@
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> 
    <xmp:CreatorTool>LaTeX with hyperref</xmp:CreatorTool> 
-   <xmp:ModifyDate>2026-01-11T15:04:36+01:00</xmp:ModifyDate> 
-   <xmp:CreateDate>2026-01-11T15:04:36+01:00</xmp:CreateDate> 
-   <xmp:MetadataDate>2026-01-11T15:04:36+01:00</xmp:MetadataDate> 
+   <xmp:ModifyDate>2026-01-11T15:15:57+01:00</xmp:ModifyDate> 
+   <xmp:CreateDate>2026-01-11T15:15:57+01:00</xmp:CreateDate> 
+   <xmp:MetadataDate>2026-01-11T15:15:57+01:00</xmp:MetadataDate> 
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:xmpRights = "http://ns.adobe.com/xap/1.0/rights/"> 
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"> 
    <xmpMM:DocumentID>uuid:C8CFC28F-88E1-7995-E9AD-F6D12EAD346B</xmpMM:DocumentID> 
-   <xmpMM:InstanceID>uuid:20BA9DEA-4F5D-BC56-F02A-5F6F18644B7C</xmpMM:InstanceID> 
+   <xmpMM:InstanceID>uuid:9BE1B5F1-5E5E-6E85-B4D0-6769CE14595F</xmpMM:InstanceID> 
   </rdf:Description> 
  </rdf:RDF> 
 </x:xmpmeta> 
