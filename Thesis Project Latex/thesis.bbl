@@ -1,0 +1,131 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{donnellyCriticalSecurityHistory2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=235b0e1ed36de84833cf96df7b80bdb6}{%
+           family={Donnelly},
+           familyi={D\bibinitperiod},
+           given={Faye},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ac65bc955e268d52c45ec94a0d9780e}{%
+           family={Steele},
+           familyi={S\bibinitperiod},
+           given={Brent\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1a29811c58d6fd49bfbb4a79d10aa61c}
+      \strng{fullhash}{f8325a80cb92653a3e50728ef5ae1469}
+      \strng{fullhashraw}{f8325a80cb92653a3e50728ef5ae1469}
+      \strng{bibnamehash}{f8325a80cb92653a3e50728ef5ae1469}
+      \strng{authorbibnamehash}{f8325a80cb92653a3e50728ef5ae1469}
+      \strng{authornamehash}{1a29811c58d6fd49bfbb4a79d10aa61c}
+      \strng{authorfullhash}{f8325a80cb92653a3e50728ef5ae1469}
+      \strng{authorfullhashraw}{f8325a80cb92653a3e50728ef5ae1469}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This article makes a case for incorporating the concept of `Critical Security History' (CSH) into security studies. While history plays a powerful role in a cornucopia of security stories, we contend that it often goes unnoticed in scholarly research and teaching. Against this backdrop, we present a detailed guide to study how history is told and enacted in non-linear ways. To do this, the article outlines how CSH can contribute to securitisation and ontological security studies. As shown, this lens casts a new light on the legacies of (de)securitisation processes and how they are commemorated. It also illustrates that ontological security studies have only begun to call into question the concept of historicity. Working through these observations, the article marshals insights from Halvard Leira's notion of `engaged historical amateurism' to entice scholars interested in `doing' CSH. While acknowledging that this research agenda is hard to achieve, our study of the 2012 Sarajevo Red Line project helps to illustrate the added value of trying to `do' CSH in theory and in practice. We end with some reflections for future research and continued conversations.}
+      \field{issn}{2057-5637, 2057-5645}
+      \field{journaltitle}{European Journal of International Security}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{2}
+      \field{shortjournal}{Eur j.of int. secur.}
+      \field{shorttitle}{Critical {{Security History}}}
+      \field{title}{Critical {{Security History}}: ({{De}})Securitisation, Ontological Security, and Insecure Memories}
+      \field{volume}{4}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{209\bibrangedash 226}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1017/eis.2019.5
+      \endverb
+      \verb{file}
+      \verb /Users/zacharystuck/Zotero/storage/N2VDQ2MI/Donnelly and Steele - 2019 - Critical Security History (De)securitisation, ontological security, and insecure memories.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/S2057563719000051/type/journal_article
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/S2057563719000051/type/journal_article
+      \endverb
+    \endentry
+    \entry{mitzenOntologicalSecurityWorld2006}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=57995e00948e6858ebef1c2448c5831b}{%
+           family={Mitzen},
+           familyi={M\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{57995e00948e6858ebef1c2448c5831b}
+      \strng{fullhash}{57995e00948e6858ebef1c2448c5831b}
+      \strng{fullhashraw}{57995e00948e6858ebef1c2448c5831b}
+      \strng{bibnamehash}{57995e00948e6858ebef1c2448c5831b}
+      \strng{authorbibnamehash}{57995e00948e6858ebef1c2448c5831b}
+      \strng{authornamehash}{57995e00948e6858ebef1c2448c5831b}
+      \strng{authorfullhash}{57995e00948e6858ebef1c2448c5831b}
+      \strng{authorfullhashraw}{57995e00948e6858ebef1c2448c5831b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This article proposes that in addition to physical security, states also seek ontological security, or security of the self. Ontological security is achieved by routinizing relationships with significant others, and actors therefore become attached to those relationships. Like its physical counterpart, the ontological security motive is a constant. But states may adhere to routines rigidly or reflexively, and variation in attachment style has implications for security-seeking. This article conceptualizes the individual-level need for ontological security, scales it up to states, and applies the ontological security-seeking assumption to the security dilemma. Realists argue that states want to escape security dilemmas but uncertainty prevents them. Ontological security-seeking suggests that states may not want to escape dilemmatic conflict. Because even dangerous routines provide ontological security, rational security-seekers could become attached to conflict. Ontological security-seeking sheds new light on seemingly irrational conflict, and suggests lines of research into the stability of other outcomes in world politics.}
+      \field{issn}{1354-0661, 1460-3713}
+      \field{journaltitle}{European Journal of International Relations}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{3}
+      \field{shortjournal}{European Journal of International Relations}
+      \field{shorttitle}{Ontological {{Security}} in {{World Politics}}}
+      \field{title}{Ontological {{Security}} in {{World Politics}}: {{State Identity}} and the {{Security Dilemma}}}
+      \field{volume}{12}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{pages}{341\bibrangedash 370}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1177/1354066106067346
+      \endverb
+      \verb{file}
+      \verb /Users/zacharystuck/Zotero/storage/955332YY/Mitzen - 2006 - Ontological Security in World Politics State Identity and the Security Dilemma.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.sagepub.com/doi/10.1177/1354066106067346
+      \endverb
+      \verb{url}
+      \verb https://journals.sagepub.com/doi/10.1177/1354066106067346
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -2,10 +2,52 @@
 title: "Thesis R"
 ---
 
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+```{r}
+library(tidyverse)
+library(manifestoR)
+library(quanteda)
+library(quanteda.textstats)
+library(quanteda.textplots)
+library(jsonlite)
+```
 
 ```{r}
-1 + 1
+secrets <- read_json("./../../secrets.txt")
+
+mp_setapikey(key = secrets$ManifestoAPI)
+
+my_df <- mp_corpus(countryname == "Bosnia-Herzegovina", as_tibble = TRUE)
+my_corp <- mp_corpus(countryname == "Bosnia-Herzegovina")
+
+corp <- corpus(my_corp, text_field = "text")
+
+docvars(my_corp)
+
+content(my_corp[["79321_200210"]])
+
+mp_view_originals(party == 79321 & date == 200210)
+
 ```
+
+
+
+```{r}
+doc <- my_corp[["79321_200210"]]
+docCodes <- codes(doc) %>% 
+  tibble() %>% rename(codes = 1) %>% 
+  filter(!duplicated(codes))
+
+mp_describe_code("602.1")
+```
+
+
+```{r}
+df <- readRDS("BiH_02-07_term_final.RDS")
+
+sum <- df %>% 
+  summarise(dateRange = paste0(first(term1), "-", last(term1)))
+
+
+
+```
+
