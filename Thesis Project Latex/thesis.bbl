@@ -19,61 +19,43 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
-    \entry{donnellyCriticalSecurityHistory2019}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=235b0e1ed36de84833cf96df7b80bdb6}{%
-           family={Donnelly},
-           familyi={D\bibinitperiod},
-           given={Faye},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1ac65bc955e268d52c45ec94a0d9780e}{%
-           family={Steele},
-           familyi={S\bibinitperiod},
-           given={Brent\bibnamedelima J.},
-           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+    \entry{giddensModernitySelfidentitySelf2009}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=db288cbcfcd09a90f94155cbe2edbe09}{%
+           family={Giddens},
+           familyi={G\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{1a29811c58d6fd49bfbb4a79d10aa61c}
-      \strng{fullhash}{f8325a80cb92653a3e50728ef5ae1469}
-      \strng{fullhashraw}{f8325a80cb92653a3e50728ef5ae1469}
-      \strng{bibnamehash}{f8325a80cb92653a3e50728ef5ae1469}
-      \strng{authorbibnamehash}{f8325a80cb92653a3e50728ef5ae1469}
-      \strng{authornamehash}{1a29811c58d6fd49bfbb4a79d10aa61c}
-      \strng{authorfullhash}{f8325a80cb92653a3e50728ef5ae1469}
-      \strng{authorfullhashraw}{f8325a80cb92653a3e50728ef5ae1469}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Polity Press}%
+      }
+      \strng{namehash}{db288cbcfcd09a90f94155cbe2edbe09}
+      \strng{fullhash}{db288cbcfcd09a90f94155cbe2edbe09}
+      \strng{fullhashraw}{db288cbcfcd09a90f94155cbe2edbe09}
+      \strng{bibnamehash}{db288cbcfcd09a90f94155cbe2edbe09}
+      \strng{authorbibnamehash}{db288cbcfcd09a90f94155cbe2edbe09}
+      \strng{authornamehash}{db288cbcfcd09a90f94155cbe2edbe09}
+      \strng{authorfullhash}{db288cbcfcd09a90f94155cbe2edbe09}
+      \strng{authorfullhashraw}{db288cbcfcd09a90f94155cbe2edbe09}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{This article makes a case for incorporating the concept of `Critical Security History' (CSH) into security studies. While history plays a powerful role in a cornucopia of security stories, we contend that it often goes unnoticed in scholarly research and teaching. Against this backdrop, we present a detailed guide to study how history is told and enacted in non-linear ways. To do this, the article outlines how CSH can contribute to securitisation and ontological security studies. As shown, this lens casts a new light on the legacies of (de)securitisation processes and how they are commemorated. It also illustrates that ontological security studies have only begun to call into question the concept of historicity. Working through these observations, the article marshals insights from Halvard Leira's notion of `engaged historical amateurism' to entice scholars interested in `doing' CSH. While acknowledging that this research agenda is hard to achieve, our study of the 2012 Sarajevo Red Line project helps to illustrate the added value of trying to `do' CSH in theory and in practice. We end with some reflections for future research and continued conversations.}
-      \field{issn}{2057-5637, 2057-5645}
-      \field{journaltitle}{European Journal of International Security}
+      \field{edition}{Reprint}
+      \field{isbn}{978-0-7456-0889-1 978-0-7456-0932-4}
       \field{langid}{english}
-      \field{month}{6}
-      \field{number}{2}
-      \field{shortjournal}{Eur j.of int. secur.}
-      \field{shorttitle}{Critical {{Security History}}}
-      \field{title}{Critical {{Security History}}: ({{De}})Securitisation, Ontological Security, and Insecure Memories}
-      \field{volume}{4}
-      \field{year}{2019}
+      \field{pagetotal}{256}
+      \field{shorttitle}{Modernity and Self-Identity}
+      \field{title}{Modernity and Self-Identity: Self and Society in the Late Modern Age}
+      \field{year}{2009}
       \field{dateera}{ce}
-      \field{pages}{209\bibrangedash 226}
-      \range{pages}{18}
-      \verb{doi}
-      \verb 10.1017/eis.2019.5
-      \endverb
-      \verb{file}
-      \verb /Users/zacharystuck/Zotero/storage/N2VDQ2MI/Donnelly and Steele - 2019 - Critical Security History (De)securitisation, ontological security, and insecure memories.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.cambridge.org/core/product/identifier/S2057563719000051/type/journal_article
-      \endverb
-      \verb{url}
-      \verb https://www.cambridge.org/core/product/identifier/S2057563719000051/type/journal_article
-      \endverb
     \endentry
     \entry{mitzenOntologicalSecurityWorld2006}{article}{}{}
       \name{author}{1}{}{%
