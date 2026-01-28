@@ -19,6 +19,157 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
+    \entry{andric1977}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7c46302c33865ecd63e8880cca1398b7}{%
+           family={Andrić},
+           familyi={A\bibinitperiod},
+           given={Ivo},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=2bfdd1673968fe348f94af60ee402ca2}{%
+           family={McNeill},
+           familyi={M\bibinitperiod},
+           given={William\bibnamedelima Hardy},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=1c21f06af3c9d5ebaa861e9bed33f622}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={Lovett\bibnamedelima F.},
+           giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Chicago}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{7c46302c33865ecd63e8880cca1398b7}
+      \strng{fullhash}{7c46302c33865ecd63e8880cca1398b7}
+      \strng{fullhashraw}{7c46302c33865ecd63e8880cca1398b7}
+      \strng{bibnamehash}{7c46302c33865ecd63e8880cca1398b7}
+      \strng{authorbibnamehash}{7c46302c33865ecd63e8880cca1398b7}
+      \strng{authornamehash}{7c46302c33865ecd63e8880cca1398b7}
+      \strng{authorfullhash}{7c46302c33865ecd63e8880cca1398b7}
+      \strng{authorfullhashraw}{7c46302c33865ecd63e8880cca1398b7}
+      \strng{nameabibnamehash}{2bfdd1673968fe348f94af60ee402ca2}
+      \strng{nameanamehash}{2bfdd1673968fe348f94af60ee402ca2}
+      \strng{nameafullhash}{2bfdd1673968fe348f94af60ee402ca2}
+      \strng{nameafullhashraw}{2bfdd1673968fe348f94af60ee402ca2}
+      \strng{translatorbibnamehash}{1c21f06af3c9d5ebaa861e9bed33f622}
+      \strng{translatornamehash}{1c21f06af3c9d5ebaa861e9bed33f622}
+      \strng{translatorfullhash}{1c21f06af3c9d5ebaa861e9bed33f622}
+      \strng{translatorfullhashraw}{1c21f06af3c9d5ebaa861e9bed33f622}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{OCLC: 3293147}
+      \field{isbn}{978-0-226-02045-7}
+      \field{langid}{english}
+      \field{nameatype}{collaborator}
+      \field{title}{The Bridge on the {{Drina}}}
+      \field{year}{1977}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Bringa_2000}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a0774aa3010dfa6fd7de539721430adb}{%
+           family={Bringa},
+           familyi={B\bibinitperiod},
+           given={Tone\bibnamedelima R.},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a0774aa3010dfa6fd7de539721430adb}
+      \strng{fullhash}{a0774aa3010dfa6fd7de539721430adb}
+      \strng{fullhashraw}{a0774aa3010dfa6fd7de539721430adb}
+      \strng{bibnamehash}{a0774aa3010dfa6fd7de539721430adb}
+      \strng{authorbibnamehash}{a0774aa3010dfa6fd7de539721430adb}
+      \strng{authornamehash}{a0774aa3010dfa6fd7de539721430adb}
+      \strng{authorfullhash}{a0774aa3010dfa6fd7de539721430adb}
+      \strng{authorfullhashraw}{a0774aa3010dfa6fd7de539721430adb}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1 \&amp;amp; 2}
+      \field{journaltitle}{Anthropology of East Europe Review}
+      \field{month}{7}
+      \field{title}{Nationality Categories, National Identification and Identity Formation in "Multinational" Bosnia}
+      \field{volume}{11}
+      \field{year}{2000}
+      \field{dateera}{ce}
+      \field{pages}{80\bibrangedash 89}
+      \range{pages}{10}
+      \verb{file}
+      \verb /Users/zacharystuck/Zotero/storage/K9BAD664/Bringa - NATIONALITY CATEGORIES, NATIONAL IDENTIFICATION AND IDENTITY FORMATION IN MULTINATIONAL BOSNIA..pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://scholarworks.iu.edu/journals/index.php/aeer/article/view/591
+      \endverb
+      \verb{url}
+      \verb https://scholarworks.iu.edu/journals/index.php/aeer/article/view/591
+      \endverb
+    \endentry
+    \entry{davidPolicingMemoryBosnia2019}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0916f3d5910be1df3d1f9c4fa7373d64}{%
+           family={David},
+           familyi={D\bibinitperiod},
+           given={Lea},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0916f3d5910be1df3d1f9c4fa7373d64}
+      \strng{fullhash}{0916f3d5910be1df3d1f9c4fa7373d64}
+      \strng{fullhashraw}{0916f3d5910be1df3d1f9c4fa7373d64}
+      \strng{bibnamehash}{0916f3d5910be1df3d1f9c4fa7373d64}
+      \strng{authorbibnamehash}{0916f3d5910be1df3d1f9c4fa7373d64}
+      \strng{authornamehash}{0916f3d5910be1df3d1f9c4fa7373d64}
+      \strng{authorfullhash}{0916f3d5910be1df3d1f9c4fa7373d64}
+      \strng{authorfullhashraw}{0916f3d5910be1df3d1f9c4fa7373d64}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Using a case from Bosnia and Herzegovina (BiH), this article seeks to uncover how structural division along ethnic lines and external pressures to adopt memorialization policies relate to ontological security seeking. To provide securitization of memory, external memorialization policies, understood as the offsprings of the growing organizational power of human rights ideology, are constantly clashing with the nationalist understanding and usage of memory because, through particular pretext of victim-perpetrator-bystanders, they displace deeply contextualized historical memory from its national setting. The securitization of memory is understood here as the part of ontological security which refers to the need of a political elite governing a sovereign polity to have a secure identity by maintaining distinctiveness and through routinizing their relationships with other polities. The main claims of this paper are twofold. Firstly: external attempts to secure memory are actually designed to secure the moral boundaries of those who impose and mandate the memorialization policies, meaning the international community, and not the Bosnians. Secondly, and closely interlinked with the previous claim: the attempt to enforce one set of memories may backfire---that is, fail to secure against the repetition of violence while also cementing divisions along ethnic lines. These ethnic divisions, thus continually mobilized, may then contribute to further conflict. Those claims are illustrated with three different realms of memorialization policies securitization in the case of BiH.}
+      \field{issn}{0891-4486, 1573-3416}
+      \field{journaltitle}{International Journal of Politics, Culture, and Society}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{2}
+      \field{shortjournal}{Int J Polit Cult Soc}
+      \field{shorttitle}{Policing {{Memory}} in {{Bosnia}}}
+      \field{title}{Policing {{Memory}} in {{Bosnia}}: {{Ontological Security}} and {{International Administration}} of {{Memorialization Policies}}}
+      \field{volume}{32}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{211\bibrangedash 225}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/s10767-018-9305-y
+      \endverb
+      \verb{file}
+      \verb /Users/zacharystuck/Zotero/storage/WAIFQP7X/David - 2019 - Policing Memory in Bosnia Ontological Security and International Administration of Memorialization.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s10767-018-9305-y
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10767-018-9305-y
+      \endverb
+    \endentry
     \entry{giddensModernitySelfidentitySelf2009}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=db288cbcfcd09a90f94155cbe2edbe09}{%
@@ -56,6 +207,103 @@
       \field{title}{Modernity and Self-Identity: Self and Society in the Late Modern Age}
       \field{year}{2009}
       \field{dateera}{ce}
+    \endentry
+    \entry{jagiello-szostakSrebrenicaMarkerMemory2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f02a8d1a5fa5624ee9b898f91ee909e5}{%
+           family={Jagiełło-Szostak},
+           familyi={J\bibinithyphendelim S\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f02a8d1a5fa5624ee9b898f91ee909e5}
+      \strng{fullhash}{f02a8d1a5fa5624ee9b898f91ee909e5}
+      \strng{fullhashraw}{f02a8d1a5fa5624ee9b898f91ee909e5}
+      \strng{bibnamehash}{f02a8d1a5fa5624ee9b898f91ee909e5}
+      \strng{authorbibnamehash}{f02a8d1a5fa5624ee9b898f91ee909e5}
+      \strng{authornamehash}{f02a8d1a5fa5624ee9b898f91ee909e5}
+      \strng{authorfullhash}{f02a8d1a5fa5624ee9b898f91ee909e5}
+      \strng{authorfullhashraw}{f02a8d1a5fa5624ee9b898f91ee909e5}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article aims to analyze the impact of memory on security/foreign policy using the example of Serbia and Bosnia and Herzegovina's bilateral relations. The basis for these considerations is the concept of ontological security. It indicates the construction of the identity of the state and is implemented through political decisions and social practices (for example remembering important historical events). Here, memory is treated as a social construct. In addition, the article focuses on memory leading to the formation of state identity, also seen in the international sphere. Historical memory has a considerable impact on bilateral relations between countries that used to be in conflict, like Serbia and BiH. In the example analyzed, leaders use historical memory to create separate identities, commemorate chosen and appropriate victims/heroes or important dates, historical sites, monuments events and develop selective narratives. The most significant elements in the analysis of the historical memory of Serbia and BiH relations are (1) the goals of foreign and security policy of Serbia and BiH (2) the contemporary narrative of the Srebrenica genocide and its perception by governments of Serbia, BiH, and by Bosnian Serbs and Bosniaks, and (3) an official Srebrenica commemoration (memorials, Srebrenica Memorial Day).}
+      \field{issn}{0090-5992, 1465-3923}
+      \field{journaltitle}{Nationalities Papers}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{2}
+      \field{shortjournal}{Nationalities Papers}
+      \field{title}{Srebrenica as a {{Marker}} of {{Memory}} in {{Bilateral Relations Between Serbia}} and {{Bosnia}} and {{Herzegovina}} in the {{Light}} of {{Ontological Security}}}
+      \field{volume}{53}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{pages}{318\bibrangedash 334}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1017/nps.2024.73
+      \endverb
+      \verb{file}
+      \verb /Users/zacharystuck/Zotero/storage/N2NKFQVM/Jagiełło-Szostak - 2025 - Srebrenica as a Marker of Memory in Bilateral Relations Between Serbia and Bosnia and Herzegovina in.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/S0090599224000734/type/journal_article
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/S0090599224000734/type/journal_article
+      \endverb
+    \endentry
+    \entry{kocanIdentityOntologicalSecurity2023}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e88e3b11bff6167852e09361271e2a13}{%
+           family={Kočan},
+           familyi={K\bibinitperiod},
+           given={Faris},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature Switzerland}%
+      }
+      \strng{namehash}{e88e3b11bff6167852e09361271e2a13}
+      \strng{fullhash}{e88e3b11bff6167852e09361271e2a13}
+      \strng{fullhashraw}{e88e3b11bff6167852e09361271e2a13}
+      \strng{bibnamehash}{e88e3b11bff6167852e09361271e2a13}
+      \strng{authorbibnamehash}{e88e3b11bff6167852e09361271e2a13}
+      \strng{authornamehash}{e88e3b11bff6167852e09361271e2a13}
+      \strng{authorfullhash}{e88e3b11bff6167852e09361271e2a13}
+      \strng{authorfullhashraw}{e88e3b11bff6167852e09361271e2a13}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-031-46168-2 978-3-031-46169-9}
+      \field{langid}{english}
+      \field{series}{Central and {{Eastern European Perspectives}} on {{International Relations}}}
+      \field{title}{Identity, {{Ontological Security}} and {{Europeanisation}} in {{Republika Srpska}}}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-3-031-46169-9
+      \endverb
+      \verb{file}
+      \verb /Users/zacharystuck/Zotero/storage/MNWU5A3G/Kočan - 2023 - Identity, Ontological Security and Europeanisation in Republika Srpska.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/978-3-031-46169-9
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/978-3-031-46169-9
+      \endverb
     \endentry
     \entry{mitzenOntologicalSecurityWorld2006}{article}{}{}
       \name{author}{1}{}{%
@@ -105,6 +353,80 @@
       \endverb
       \verb{url}
       \verb https://journals.sagepub.com/doi/10.1177/1354066106067346
+      \endverb
+    \endentry
+    \entry{said1979}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a41ca7a97ad4c8dd51a0d6e647ae828e}{%
+           family={Said},
+           familyi={S\bibinitperiod},
+           given={Edward\bibnamedelima W.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Vintage books}%
+      }
+      \strng{namehash}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \strng{fullhash}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \strng{fullhashraw}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \strng{bibnamehash}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \strng{authorbibnamehash}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \strng{authornamehash}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \strng{authorfullhash}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \strng{authorfullhashraw}{a41ca7a97ad4c8dd51a0d6e647ae828e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-394-42814-7}
+      \field{langid}{english}
+      \field{pagetotal}{368}
+      \field{title}{Orientalism}
+      \field{year}{1979}
+      \field{dateera}{ce}
+    \endentry
+    \entry{todorova2009}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=942f9740aa608e3bd7b748cb0f03ec3f}{%
+           family={Todorova},
+           familyi={T\bibinitperiod},
+           given={Maria\bibnamedelima Nikolaeva},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{942f9740aa608e3bd7b748cb0f03ec3f}
+      \strng{fullhash}{942f9740aa608e3bd7b748cb0f03ec3f}
+      \strng{fullhashraw}{942f9740aa608e3bd7b748cb0f03ec3f}
+      \strng{bibnamehash}{942f9740aa608e3bd7b748cb0f03ec3f}
+      \strng{authorbibnamehash}{942f9740aa608e3bd7b748cb0f03ec3f}
+      \strng{authornamehash}{942f9740aa608e3bd7b748cb0f03ec3f}
+      \strng{authorfullhash}{942f9740aa608e3bd7b748cb0f03ec3f}
+      \strng{authorfullhashraw}{942f9740aa608e3bd7b748cb0f03ec3f}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-19-538786-5}
+      \field{langid}{english}
+      \field{title}{Imagining the {{Balkans}}}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /Users/zacharystuck/Zotero/storage/7WNKF8DX/Todorova - 2009 - Imagining the Balkans.pdf
       \endverb
     \endentry
   \enddatalist

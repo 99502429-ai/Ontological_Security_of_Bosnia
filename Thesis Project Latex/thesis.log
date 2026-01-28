@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  16 JAN 2026 19:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  28 JAN 2026 21:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1408,9 +1408,13 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)) (./Sections/Literature Review.tex) (./Sections/Framework.tex) (./Sections/Outline.tex)
+)) (./Sections/Literature Review.tex
 
-[2{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}]
+[2{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}]) (./Sections/Framework.tex) (./Sections/Outline.tex
+
+[3])
+
+[4]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1433,7 +1437,7 @@ See the caption package documentation for explanation.
 
 
 
-[3
+[5
 
 ] (./thesis.aux)
  ***********
@@ -1447,18 +1451,18 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27967 strings out of 473190
- 473925 string characters out of 5715801
- 1309118 words of memory out of 5000000
- 50682 multiletter control sequences out of 15000+600000
- 614748 words of font info for 115 fonts, out of 8000000 for 9000
+ 28065 strings out of 473190
+ 476179 string characters out of 5715801
+ 1311666 words of memory out of 5000000
+ 50713 multiletter control sequences out of 15000+600000
+ 617663 words of font info for 144 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 92i,5n,95p,1368b,2320s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,5n,95p,2974b,2320s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on thesis.pdf (3 pages, 287441 bytes).
+Output written on thesis.pdf (5 pages, 304032 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
+ 123 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
+ 21 named destinations out of 1000 (max. 500000)
  31250 words of extra memory for PDF output out of 35830 (max. 10000000)
 
