@@ -120,6 +120,232 @@
       \verb https://scholarworks.iu.edu/journals/index.php/aeer/article/view/591
       \endverb
     \endentry
+    \entry{Burst:2024}{misc}{}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=63ff2f6955ac36b7f2a6d7836b5f53c0}{%
+           family={Burst},
+           familyi={B\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c590c134392f2bd9dbf56c926da78bb7}{%
+           family={Lehmann},
+           familyi={L\bibinitperiod},
+           given={Pola},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81bd67f8b0e24e05cbb45d08d91be17e}{%
+           family={Franzmann},
+           familyi={F\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89f437da51e618fe43d03a72a0d0c7a6}{%
+           family={Al-Gaddooa},
+           familyi={A\bibinithyphendelim G\bibinitperiod},
+           given={Denise},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb41c3f33395e7c28cd86f7ab6fe6ab1}{%
+           family={Ivanusch},
+           familyi={I\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=654d8e36b417486693c051bdd3925a4f}{%
+           family={Regel},
+           familyi={R\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=29477ac9e45838c1727dc2c32aadd6a2}{%
+           family={Riethmüller},
+           familyi={R\bibinitperiod},
+           given={Felicia},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e10970e1f6d20523f6ff1648ced2a3d4}{%
+           family={Weßels},
+           familyi={W\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d28288abde9b8bbb68b5ef61f6cb9fce}{%
+           family={Zehnter},
+           familyi={Z\bibinitperiod},
+           given={Lisa},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin / Göttingen}%
+      }
+      \list{organization}{1}{%
+        {Wissenschaftszentrum Berlin für Sozialforschung / Göttinger Institut für Demokratieforschung}%
+      }
+      \strng{namehash}{2d02a36f20d2fbececc693303c6400eb}
+      \strng{fullhash}{227c1c7afc77890da64db900bd4fac09}
+      \strng{fullhashraw}{227c1c7afc77890da64db900bd4fac09}
+      \strng{bibnamehash}{227c1c7afc77890da64db900bd4fac09}
+      \strng{authorbibnamehash}{227c1c7afc77890da64db900bd4fac09}
+      \strng{authornamehash}{2d02a36f20d2fbececc693303c6400eb}
+      \strng{authorfullhash}{227c1c7afc77890da64db900bd4fac09}
+      \strng{authorfullhashraw}{227c1c7afc77890da64db900bd4fac09}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Manifestoberta. {{Version}} 56topics.Sentence.2024.1.1}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.25522/manifesto.manifestoberta.56topics.sentence.2024.1.1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.25522/manifesto.manifestoberta.56topics.sentence.2024.1.1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.25522/manifesto.manifestoberta.56topics.sentence.2024.1.1
+      \endverb
+      \keyw{notion}
+    \endentry
+    \entry{buzan1998}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=731a13c27f66472eaf245e1c51925ca7}{%
+           family={Buzan},
+           familyi={B\bibinitperiod},
+           given={Barry},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c746e71c691f5541133012fdfec8e0c}{%
+           family={Waever},
+           familyi={W\bibinitperiod},
+           given={Ole},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,useprefix=false,hash=cd5267f8096c9cfe3d1a9352b240cf03}{%
+           family={Wilde},
+           familyi={W\bibinitperiod},
+           given={Jaap},
+           giveni={J\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{location}{1}{%
+        {Boulder, Colo.}%
+      }
+      \list{publisher}{1}{%
+        {Rienner}%
+      }
+      \strng{namehash}{d1b508a7f15592bc9d81505e06a036b2}
+      \strng{fullhash}{3d41d3fe7d6c1030971727411d4ea7b6}
+      \strng{fullhashraw}{3d41d3fe7d6c1030971727411d4ea7b6}
+      \strng{bibnamehash}{3d41d3fe7d6c1030971727411d4ea7b6}
+      \strng{authorbibnamehash}{3d41d3fe7d6c1030971727411d4ea7b6}
+      \strng{authornamehash}{d1b508a7f15592bc9d81505e06a036b2}
+      \strng{authorfullhash}{3d41d3fe7d6c1030971727411d4ea7b6}
+      \strng{authorfullhashraw}{3d41d3fe7d6c1030971727411d4ea7b6}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{Nachdr.}
+      \field{isbn}{978-1-55587-603-6 978-1-55587-784-2}
+      \field{langid}{english}
+      \field{pagetotal}{239}
+      \field{shorttitle}{Security}
+      \field{title}{Security: A New Framework for Analysis}
+      \field{year}{1998}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /Users/zacharystuck/Zotero/storage/4TIIWQUK/Buzan et al. - 1998 - Security a new framework for analysis.pdf
+      \endverb
+    \endentry
+    \entry{camacho-collados-etal-2022-tweetnlp}{inproceedings}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=9e89e8aee4214a80b57bc9bf8a273c69}{%
+           family={Camacho-collados},
+           familyi={C\bibinithyphendelim c\bibinitperiod},
+           given={Jose},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e44da7f1f23a82224cda055f823c6207}{%
+           family={Rezaee},
+           familyi={R\bibinitperiod},
+           given={Kiamehr},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0cd61fd0be87f9fded80fd6cb6ca079}{%
+           family={Riahi},
+           familyi={R\bibinitperiod},
+           given={Talayeh},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c60851bd09258a040f5b4399fa216495}{%
+           family={Ushio},
+           familyi={U\bibinitperiod},
+           given={Asahi},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c247ca09eac6a9145d254f8f65eb4c6}{%
+           family={Loureiro},
+           familyi={L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce1a8f6a23809f920351458a0f4b5d0c}{%
+           family={Antypas},
+           familyi={A\bibinitperiod},
+           given={Dimosthenis},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a5e6fd1d646d7d63852d624c8f414d1}{%
+           family={Boisson},
+           familyi={B\bibinitperiod},
+           given={Joanne},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f6e179e8b9bcb004c549ae195861cad8}{%
+           family={Espinosa\bibnamedelima Anke},
+           familyi={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=653e326d5d6c25927f0043db9259836f}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Fangyu},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61f17c9ab92ab53b91e76441d286d413}{%
+           family={Mart\'\inez\bibnamedelima Cámara},
+           familyi={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Eugenio},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7e6d2092471a2ad34f75a92e0440ae3a}
+      \strng{fullhash}{50383cd5c5c4cedbfaf4e67fe314fdab}
+      \strng{fullhashraw}{50383cd5c5c4cedbfaf4e67fe314fdab}
+      \strng{bibnamehash}{50383cd5c5c4cedbfaf4e67fe314fdab}
+      \strng{authorbibnamehash}{50383cd5c5c4cedbfaf4e67fe314fdab}
+      \strng{authornamehash}{7e6d2092471a2ad34f75a92e0440ae3a}
+      \strng{authorfullhash}{50383cd5c5c4cedbfaf4e67fe314fdab}
+      \strng{authorfullhashraw}{50383cd5c5c4cedbfaf4e67fe314fdab}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{{TweetNLP}}: {{Cutting-edge}} Natural Language Processing for Social Media}
+      \keyw{notion}
+    \endentry
     \entry{davidPolicingMemoryBosnia2019}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0916f3d5910be1df3d1f9c4fa7373d64}{%
@@ -207,6 +433,85 @@
       \field{title}{Modernity and Self-Identity: Self and Society in the Late Modern Age}
       \field{year}{2009}
       \field{dateera}{ce}
+    \endentry
+    \entry{grootendorst2022bertopic}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a07dee61406b9c48310bff46188c983b}{%
+           family={Grootendorst},
+           familyi={G\bibinitperiod},
+           given={Maarten},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a07dee61406b9c48310bff46188c983b}
+      \strng{fullhash}{a07dee61406b9c48310bff46188c983b}
+      \strng{fullhashraw}{a07dee61406b9c48310bff46188c983b}
+      \strng{bibnamehash}{a07dee61406b9c48310bff46188c983b}
+      \strng{authorbibnamehash}{a07dee61406b9c48310bff46188c983b}
+      \strng{authornamehash}{a07dee61406b9c48310bff46188c983b}
+      \strng{authorfullhash}{a07dee61406b9c48310bff46188c983b}
+      \strng{authorfullhashraw}{a07dee61406b9c48310bff46188c983b}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{title}{{{BERTopic}}: {{Neural}} Topic Modeling with a Class-Based {{TF-IDF}} Procedure}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{eprint}
+      \verb 2203.05794
+      \endverb
+      \keyw{notion}
+    \endentry
+    \entry{haukelicht2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=75a502b3265659ba5692c39484bfed22}{%
+           family={{Hauke Licht}},
+           familyi={H\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=87a6827ec4798c8a34c4f5a5bcabd536}{%
+           family={{Fabienne Lind}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{f24eb3aa2138a4aaeb16a0bed51c3899}
+      \strng{fullhash}{5a074b3fa1acae06443f6e339e4e68b3}
+      \strng{fullhashraw}{5a074b3fa1acae06443f6e339e4e68b3}
+      \strng{bibnamehash}{5a074b3fa1acae06443f6e339e4e68b3}
+      \strng{authorbibnamehash}{5a074b3fa1acae06443f6e339e4e68b3}
+      \strng{authornamehash}{f24eb3aa2138a4aaeb16a0bed51c3899}
+      \strng{authorfullhash}{5a074b3fa1acae06443f6e339e4e68b3}
+      \strng{authorfullhashraw}{5a074b3fa1acae06443f6e339e4e68b3}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
+      \field{issn}{2665-9085}
+      \field{journaltitle}{Computational Communication Research}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{2}
+      \field{shorttitle}{Going Cross-Lingual}
+      \field{title}{Going Cross-Lingual: {{A}} Guide to Multilingual Text Analysis}
+      \field{volume}{5}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.5117/CCR2023.2.2.LICH
+      \endverb
+      \verb{urlraw}
+      \verb https://www.aup-online.com/content/journals/10.5117/CCR2023.2.2.LICH
+      \endverb
+      \verb{url}
+      \verb https://www.aup-online.com/content/journals/10.5117/CCR2023.2.2.LICH
+      \endverb
+      \keyw{notion}
     \endentry
     \entry{jagiello-szostakSrebrenicaMarkerMemory2025}{article}{}{}
       \name{author}{1}{}{%
@@ -305,6 +610,88 @@
       \verb https://link.springer.com/10.1007/978-3-031-46169-9
       \endverb
     \endentry
+    \entry{lfabilrrz25}{book}{}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=c590c134392f2bd9dbf56c926da78bb7}{%
+           family={Lehmann},
+           familyi={L\bibinitperiod},
+           given={Pola},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81bd67f8b0e24e05cbb45d08d91be17e}{%
+           family={Franzmann},
+           familyi={F\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89f437da51e618fe43d03a72a0d0c7a6}{%
+           family={Al-Gaddooa},
+           familyi={A\bibinithyphendelim G\bibinitperiod},
+           given={Denise},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=63ff2f6955ac36b7f2a6d7836b5f53c0}{%
+           family={Burst},
+           familyi={B\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb41c3f33395e7c28cd86f7ab6fe6ab1}{%
+           family={Ivanusch},
+           familyi={I\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=246918b1fbfd229ba798d25b7f5e42fc}{%
+           family={Lewandowski},
+           familyi={L\bibinitperiod},
+           given={Jirka},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=654d8e36b417486693c051bdd3925a4f}{%
+           family={Regel},
+           familyi={R\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=29477ac9e45838c1727dc2c32aadd6a2}{%
+           family={Riethmüller},
+           familyi={R\bibinitperiod},
+           given={Felicia},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d28288abde9b8bbb68b5ef61f6cb9fce}{%
+           family={Zehnter},
+           familyi={Z\bibinitperiod},
+           given={Lisa},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {WZB Berlin Social Science Center/Göttingen: Institute for Democracy Research (IfDem}%
+      }
+      \strng{namehash}{77de2ed196b213edc41d733e26b15b4d}
+      \strng{fullhash}{3378936e114dbd8fa84ca6d700dd905e}
+      \strng{fullhashraw}{3378936e114dbd8fa84ca6d700dd905e}
+      \strng{bibnamehash}{3378936e114dbd8fa84ca6d700dd905e}
+      \strng{authorbibnamehash}{3378936e114dbd8fa84ca6d700dd905e}
+      \strng{authornamehash}{77de2ed196b213edc41d733e26b15b4d}
+      \strng{authorfullhash}{3378936e114dbd8fa84ca6d700dd905e}
+      \strng{authorfullhashraw}{3378936e114dbd8fa84ca6d700dd905e}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Manifesto Corpus. {{Version}}: 2025-1}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \keyw{notion}
+    \endentry
     \entry{mitzenOntologicalSecurityWorld2006}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=57995e00948e6858ebef1c2448c5831b}{%
@@ -355,6 +742,137 @@
       \verb https://journals.sagepub.com/doi/10.1177/1354066106067346
       \endverb
     \endentry
+    \entry{mochtak2022}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=ee8dce57aa2860878e87a646a726e876}{%
+           family={Mochtak},
+           familyi={M\bibinitperiod},
+           given={Michal},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=218b63c460725bb074a41a1908dc6713}{%
+           family={Glaurdić},
+           familyi={G\bibinitperiod},
+           given={Josip},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=29811a93adaa75ee3a337196a20fe9ed}{%
+           family={Lesschaeve},
+           familyi={L\bibinitperiod},
+           given={Christophe},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f1c77fdb1dcb94dec59a5e08cc4290b}{%
+           family={Muharemović},
+           familyi={M\bibinitperiod},
+           given={Ensar},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{76a980d6baacc4472ae66b94c904f65b}
+      \strng{fullhash}{bb6696d7c0cd7ccf3956f3f6ae690b95}
+      \strng{fullhashraw}{bb6696d7c0cd7ccf3956f3f6ae690b95}
+      \strng{bibnamehash}{bb6696d7c0cd7ccf3956f3f6ae690b95}
+      \strng{authorbibnamehash}{bb6696d7c0cd7ccf3956f3f6ae690b95}
+      \strng{authornamehash}{76a980d6baacc4472ae66b94c904f65b}
+      \strng{authorfullhash}{bb6696d7c0cd7ccf3956f3f6ae690b95}
+      \strng{authorfullhashraw}{bb6696d7c0cd7ccf3956f3f6ae690b95}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The repository contains a cleaned and pre-processed corpus of parliamentary debates from the Parliamentary Assembly of Bosnia and Herzegovina. The corpus is accompanied by the metadata on elected representatives and their political parties. It covers the period of 1998-2018 (six complete terms) and counts over 127 thousand speeches. {$<$}strong{$>$}If you use the dataset, please cite{$<$}/strong{$>$}: Mochtak, Michal, Josip Glaurdić, Christophe Lesschaeve, and Ensar Muharemović (2022): BiHCorp: Corpus of Parliamentary Debates in Bosnia and Herzegovina (v1.1.1),{$<$}br{$>$} https://doi.org/10.5281/zenodo.6517697. v1.1.1 ({$<$}strong{$>$}latest version{$<$}/strong{$>$}){$<$}br{$>$} - added the concept DOI to codebooks (DOI was generated only after the repository was published) v1.1.0{$<$}br{$>$} - fixed a typo in one of the debates' date{$<$}br{$>$} - fixed minor inconsistencies in the tag column v1.0.0{$<$}br{$>$} - originally posted on GESIS repository (https://doi.org/10.7802/2387); migrated to ZENODO due to limitations concerning the concept DOI}
+      \field{day}{9}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{shorttitle}{{{BiHCorp}}}
+      \field{title}{{{BiHCorp}}: {{Corpus}} of {{Parliamentary Debates}} in {{Bosnia}} and {{Herzegovina}}}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.5281/ZENODO.6517697
+      \endverb
+      \verb{urlraw}
+      \verb https://zenodo.org/record/6517697
+      \endverb
+      \verb{url}
+      \verb https://zenodo.org/record/6517697
+      \endverb
+      \keyw{Bosnia-Herzegovina,corpus,notion,parliamentary debates}
+    \endentry
+    \entry{oscemissiontobosniaandherzegovina1995}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cc0cc5e315e7a5037ed1d78b424e6817}{%
+           family={{OSCE Mission to Bosnia and Herzegovina}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{organization}{2}{%
+        {Organization for Security}%
+        {Co-operation in Europe}%
+      }
+      \strng{namehash}{cc0cc5e315e7a5037ed1d78b424e6817}
+      \strng{fullhash}{cc0cc5e315e7a5037ed1d78b424e6817}
+      \strng{fullhashraw}{cc0cc5e315e7a5037ed1d78b424e6817}
+      \strng{bibnamehash}{cc0cc5e315e7a5037ed1d78b424e6817}
+      \strng{authorbibnamehash}{cc0cc5e315e7a5037ed1d78b424e6817}
+      \strng{authornamehash}{cc0cc5e315e7a5037ed1d78b424e6817}
+      \strng{authorfullhash}{cc0cc5e315e7a5037ed1d78b424e6817}
+      \strng{authorfullhashraw}{cc0cc5e315e7a5037ed1d78b424e6817}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{langid}{english}
+      \field{shorttitle}{Dayton {{Peace Agreement}}}
+      \field{title}{Dayton {{Peace Agreement}}, {{General Framework Agreement}} for {{Peace}} in {{Bosnia}} and {{Herzegovinia}}}
+      \field{year}{1995}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bih.osce.org/sites/default/files/f/documents/e/0/126173.pdf
+      \endverb
+      \verb{url}
+      \verb https://bih.osce.org/sites/default/files/f/documents/e/0/126173.pdf
+      \endverb
+    \endentry
+    \entry{Speeches}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ef0c0767f5dc257790ba0e5c5dbfcd84}{%
+           family={{Presidency of Bosnia and Herzegovina}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{organization}{2}{%
+        {Presidency of Bosnia}%
+        {Herzegovina}%
+      }
+      \strng{namehash}{ef0c0767f5dc257790ba0e5c5dbfcd84}
+      \strng{fullhash}{ef0c0767f5dc257790ba0e5c5dbfcd84}
+      \strng{fullhashraw}{ef0c0767f5dc257790ba0e5c5dbfcd84}
+      \strng{bibnamehash}{ef0c0767f5dc257790ba0e5c5dbfcd84}
+      \strng{authorbibnamehash}{ef0c0767f5dc257790ba0e5c5dbfcd84}
+      \strng{authornamehash}{ef0c0767f5dc257790ba0e5c5dbfcd84}
+      \strng{authorfullhash}{ef0c0767f5dc257790ba0e5c5dbfcd84}
+      \strng{authorfullhashraw}{ef0c0767f5dc257790ba0e5c5dbfcd84}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Speeches: {{Presidency}} of {{Bosnia}} and {{Herzegovina}}}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.predsjednistvobih.ba/gov/Archive.aspx?pageIndex=1&langTag=en-US
+      \endverb
+      \verb{url}
+      \verb https://www.predsjednistvobih.ba/gov/Archive.aspx?pageIndex=1&langTag=en-US
+      \endverb
+      \keyw{notion}
+    \endentry
     \entry{said1979}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a41ca7a97ad4c8dd51a0d6e647ae828e}{%
@@ -390,6 +908,44 @@
       \field{title}{Orientalism}
       \field{year}{1979}
       \field{dateera}{ce}
+    \endentry
+    \entry{tiedemann2020}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d78ca968eaba90115894696a2e2708a0}{%
+           family={Tiedemann},
+           familyi={T\bibinitperiod},
+           given={Jörg},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75ca490dd8835d6ea020693354083c43}{%
+           family={Thottingal},
+           familyi={T\bibinitperiod},
+           given={Santhosh},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Lisbon, Portugal}%
+      }
+      \strng{namehash}{7822436fd936f6f49d11df1c882b80f8}
+      \strng{fullhash}{e8379d993191ec99d43015e628fb8ec3}
+      \strng{fullhashraw}{e8379d993191ec99d43015e628fb8ec3}
+      \strng{bibnamehash}{e8379d993191ec99d43015e628fb8ec3}
+      \strng{authorbibnamehash}{e8379d993191ec99d43015e628fb8ec3}
+      \strng{authornamehash}{7822436fd936f6f49d11df1c882b80f8}
+      \strng{authorfullhash}{e8379d993191ec99d43015e628fb8ec3}
+      \strng{authorfullhashraw}{e8379d993191ec99d43015e628fb8ec3}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 22nd {{Annual Conferenec}} of the {{European Association}} for {{Machine Translation}} ({{EAMT}})}
+      \field{title}{{{OPUS-MT}} --- {{Building}} Open Translation Services for the {{World}}}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \keyw{notion}
     \endentry
     \entry{todorova2009}{book}{}{}
       \name{author}{1}{}{%
