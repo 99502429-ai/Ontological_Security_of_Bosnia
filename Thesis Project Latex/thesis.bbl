@@ -120,7 +120,7 @@
       \verb https://scholarworks.iu.edu/journals/index.php/aeer/article/view/591
       \endverb
     \endentry
-    \entry{Burst:2024}{misc}{}{}
+    \entry{burst2024}{misc}{}{}
       \name{author}{9}{}{%
         {{un=0,uniquepart=base,hash=63ff2f6955ac36b7f2a6d7836b5f53c0}{%
            family={Burst},
@@ -158,14 +158,14 @@
            given={Sven},
            giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=29477ac9e45838c1727dc2c32aadd6a2}{%
-           family={Riethmüller},
+        {{un=0,uniquepart=base,hash=59b27686aacff552f4509dc006fdd19f}{%
+           family={Riethmuller},
            familyi={R\bibinitperiod},
            given={Felicia},
            giveni={F\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=e10970e1f6d20523f6ff1648ced2a3d4}{%
-           family={Weßels},
+        {{un=0,uniquepart=base,hash=521dcb0ffe2688afc75b039945a00231}{%
+           family={Wessels},
            familyi={W\bibinitperiod},
            given={Bernhard},
            giveni={B\bibinitperiod},
@@ -177,20 +177,17 @@
            giveni={L\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Berlin / Göttingen}%
-      }
       \list{organization}{1}{%
-        {Wissenschaftszentrum Berlin für Sozialforschung / Göttinger Institut für Demokratieforschung}%
+        {Wissenschaftszentrum Berlin fur Sozialforschung / Gottinger Institut fur Demokratieforschung}%
       }
       \strng{namehash}{2d02a36f20d2fbececc693303c6400eb}
-      \strng{fullhash}{227c1c7afc77890da64db900bd4fac09}
-      \strng{fullhashraw}{227c1c7afc77890da64db900bd4fac09}
-      \strng{bibnamehash}{227c1c7afc77890da64db900bd4fac09}
-      \strng{authorbibnamehash}{227c1c7afc77890da64db900bd4fac09}
+      \strng{fullhash}{ff6e948d3b2e61e6ab5e3dd9b52961b7}
+      \strng{fullhashraw}{ff6e948d3b2e61e6ab5e3dd9b52961b7}
+      \strng{bibnamehash}{ff6e948d3b2e61e6ab5e3dd9b52961b7}
+      \strng{authorbibnamehash}{ff6e948d3b2e61e6ab5e3dd9b52961b7}
       \strng{authornamehash}{2d02a36f20d2fbececc693303c6400eb}
-      \strng{authorfullhash}{227c1c7afc77890da64db900bd4fac09}
-      \strng{authorfullhashraw}{227c1c7afc77890da64db900bd4fac09}
+      \strng{authorfullhash}{ff6e948d3b2e61e6ab5e3dd9b52961b7}
+      \strng{authorfullhashraw}{ff6e948d3b2e61e6ab5e3dd9b52961b7}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -200,9 +197,6 @@
       \field{title}{Manifestoberta. {{Version}} 56topics.Sentence.2024.1.1}
       \field{year}{2024}
       \field{dateera}{ce}
-      \verb{doi}
-      \verb 10.25522/manifesto.manifestoberta.56topics.sentence.2024.1.1
-      \endverb
       \verb{urlraw}
       \verb https://doi.org/10.25522/manifesto.manifestoberta.56topics.sentence.2024.1.1
       \endverb
@@ -323,21 +317,21 @@
            given={Fangyu},
            giveni={F\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=61f17c9ab92ab53b91e76441d286d413}{%
-           family={Mart\'\inez\bibnamedelima Cámara},
+        {{un=0,uniquepart=base,hash=05be222c9621d922433e2335f5101eed}{%
+           family={Martinez\bibnamedelima Camara},
            familyi={M\bibinitperiod\bibinitdelim C\bibinitperiod},
            given={Eugenio},
            giveni={E\bibinitperiod},
            givenun=0}}%
       }
       \strng{namehash}{7e6d2092471a2ad34f75a92e0440ae3a}
-      \strng{fullhash}{50383cd5c5c4cedbfaf4e67fe314fdab}
-      \strng{fullhashraw}{50383cd5c5c4cedbfaf4e67fe314fdab}
-      \strng{bibnamehash}{50383cd5c5c4cedbfaf4e67fe314fdab}
-      \strng{authorbibnamehash}{50383cd5c5c4cedbfaf4e67fe314fdab}
+      \strng{fullhash}{a519a65197eb95ade7b483c4c746b04b}
+      \strng{fullhashraw}{a519a65197eb95ade7b483c4c746b04b}
+      \strng{bibnamehash}{a519a65197eb95ade7b483c4c746b04b}
+      \strng{authorbibnamehash}{a519a65197eb95ade7b483c4c746b04b}
       \strng{authornamehash}{7e6d2092471a2ad34f75a92e0440ae3a}
-      \strng{authorfullhash}{50383cd5c5c4cedbfaf4e67fe314fdab}
-      \strng{authorfullhashraw}{50383cd5c5c4cedbfaf4e67fe314fdab}
+      \strng{authorfullhash}{a519a65197eb95ade7b483c4c746b04b}
+      \strng{authorfullhashraw}{a519a65197eb95ade7b483c4c746b04b}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labeldatesource}{nodate}
@@ -610,6 +604,75 @@
       \verb https://link.springer.com/10.1007/978-3-031-46169-9
       \endverb
     \endentry
+    \entry{laurer2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=14e5e461cb33210af27ec280a1c93bd6}{%
+           family={Laurer},
+           familyi={L\bibinitperiod},
+           given={Moritz},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4662b30c5fb175df143562e6c317e4fa}{%
+           family={Van\bibnamedelima Atteveldt},
+           familyi={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Wouter},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d7a6771bb61bc763e5c7dc56a309cb3e}{%
+           family={Casas},
+           familyi={C\bibinitperiod},
+           given={Andreu},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a100a2d72bd46bb0dfcdd3b37bd9bcd8}{%
+           family={Welbers},
+           familyi={W\bibinitperiod},
+           given={Kasper},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7f94bb40791defc252ea4122f59afcb2}
+      \strng{fullhash}{5162914a64d14bf71b21211294e259f4}
+      \strng{fullhashraw}{5162914a64d14bf71b21211294e259f4}
+      \strng{bibnamehash}{5162914a64d14bf71b21211294e259f4}
+      \strng{authorbibnamehash}{5162914a64d14bf71b21211294e259f4}
+      \strng{authornamehash}{7f94bb40791defc252ea4122f59afcb2}
+      \strng{authorfullhash}{5162914a64d14bf71b21211294e259f4}
+      \strng{authorfullhashraw}{5162914a64d14bf71b21211294e259f4}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Supervised machine learning is an increasingly popular tool for analyzing large political text corpora. The main disadvantage of supervised machine learning is the need for thousands of manually annotated training data points. This issue is particularly important in the social sciences where most new research questions require new training data for a new task tailored to the specific research question. This paper analyses how deep transfer learning can help address this challenge by accumulating ``prior knowledge'' in language models. Models like BERT can learn statistical language patterns through pre-training (``language knowledge''), and reliance on task-specific data can be reduced by training on universal tasks like natural language inference (NLI; ``task knowledge''). We demonstrate the benefits of transfer learning on a wide range of eight tasks. Across these eight tasks, our BERT-NLI model fine-tuned on 100 to 2,500 texts performs on average 10.7 to 18.3 percentage points better than classical models without transfer learning. Our study indicates that BERT-NLI fine-tuned on 500 texts achieves similar performance as classical models trained on around 5,000 texts. Moreover, we show that transfer learning works particularly well on imbalanced data. We conclude by discussing limitations of transfer learning and by outlining new opportunities for political science research.}
+      \field{issn}{1047-1987, 1476-4989}
+      \field{journaltitle}{Political Analysis}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Polit. Anal.}
+      \field{shorttitle}{Less {{Annotating}}, {{More Classifying}}}
+      \field{title}{Less {{Annotating}}, {{More Classifying}}: {{Addressing}} the {{Data Scarcity Issue}} of {{Supervised Machine Learning}} with {{Deep Transfer Learning}} and {{BERT-NLI}}}
+      \field{volume}{32}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{84\bibrangedash 100}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1017/pan.2023.20
+      \endverb
+      \verb{file}
+      \verb /Users/zacharystuck/Zotero/storage/2VSI7FAT/Laurer et al. - 2024 - Less Annotating, More Classifying Addressing the Data Scarcity Issue of Supervised Machine Learning.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/S1047198723000207/type/journal_article
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/S1047198723000207/type/journal_article
+      \endverb
+      \keyw{notion}
+    \endentry
     \entry{lfabilrrz25}{book}{}{}
       \name{author}{9}{}{%
         {{un=0,uniquepart=base,hash=c590c134392f2bd9dbf56c926da78bb7}{%
@@ -654,8 +717,8 @@
            given={Sven},
            giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=29477ac9e45838c1727dc2c32aadd6a2}{%
-           family={Riethmüller},
+        {{un=0,uniquepart=base,hash=59b27686aacff552f4509dc006fdd19f}{%
+           family={Riethmuller},
            familyi={R\bibinitperiod},
            given={Felicia},
            giveni={F\bibinitperiod},
@@ -671,16 +734,16 @@
         {Berlin}%
       }
       \list{publisher}{1}{%
-        {WZB Berlin Social Science Center/Göttingen: Institute for Democracy Research (IfDem}%
+        {WZB Berlin Social Science Center/Gottingen: Institute for Democracy Research (IfDem}%
       }
       \strng{namehash}{77de2ed196b213edc41d733e26b15b4d}
-      \strng{fullhash}{3378936e114dbd8fa84ca6d700dd905e}
-      \strng{fullhashraw}{3378936e114dbd8fa84ca6d700dd905e}
-      \strng{bibnamehash}{3378936e114dbd8fa84ca6d700dd905e}
-      \strng{authorbibnamehash}{3378936e114dbd8fa84ca6d700dd905e}
+      \strng{fullhash}{23225a2548addca4daf87acafea19c00}
+      \strng{fullhashraw}{23225a2548addca4daf87acafea19c00}
+      \strng{bibnamehash}{23225a2548addca4daf87acafea19c00}
+      \strng{authorbibnamehash}{23225a2548addca4daf87acafea19c00}
       \strng{authornamehash}{77de2ed196b213edc41d733e26b15b4d}
-      \strng{authorfullhash}{3378936e114dbd8fa84ca6d700dd905e}
-      \strng{authorfullhashraw}{3378936e114dbd8fa84ca6d700dd905e}
+      \strng{authorfullhash}{23225a2548addca4daf87acafea19c00}
+      \strng{authorfullhashraw}{23225a2548addca4daf87acafea19c00}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -690,6 +753,85 @@
       \field{title}{Manifesto Corpus. {{Version}}: 2025-1}
       \field{year}{2025}
       \field{dateera}{ce}
+      \keyw{notion}
+    \endentry
+    \entry{lucas2015}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=3995dda0933bb03d997dfe71bb50dea0}{%
+           family={Lucas},
+           familyi={L\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1475878b928af274b895482136430b10}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Richard\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca08ae29f1298af10aa6e11f92b01aae}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Margaret\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1370510cfe223ff4c2c652b160014ba}{%
+           family={Stewart},
+           familyi={S\bibinitperiod},
+           given={Brandon\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=26be0ac5856b0deff25169b1bae4947c}{%
+           family={Storer},
+           familyi={S\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e9a50476b4db979d3b603e83a05e919}{%
+           family={Tingley},
+           familyi={T\bibinitperiod},
+           given={Dustin},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{45fafb44ed555b359ac8fbe6feda2465}
+      \strng{fullhash}{5e0eb8fd952011a6810062bb90a3dab3}
+      \strng{fullhashraw}{5e0eb8fd952011a6810062bb90a3dab3}
+      \strng{bibnamehash}{5e0eb8fd952011a6810062bb90a3dab3}
+      \strng{authorbibnamehash}{5e0eb8fd952011a6810062bb90a3dab3}
+      \strng{authornamehash}{45fafb44ed555b359ac8fbe6feda2465}
+      \strng{authorfullhash}{5e0eb8fd952011a6810062bb90a3dab3}
+      \strng{authorfullhashraw}{5e0eb8fd952011a6810062bb90a3dab3}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recent advances in research tools for the systematic analysis of textual data are enabling exciting new research throughout the social sciences. For comparative politics, scholars who are often interested in non-English and possibly multilingual textual datasets, these advances may be difficult to access. This article discusses practical issues that arise in the processing, management, translation, and analysis of textual data with a particular focus on how procedures differ across languages. These procedures are combined in two applied examples of automated text analysis using the recently introduced Structural Topic Model. We also show how the model can be used to analyze data that have been translated into a single language via machine translation tools. All the methods we describe here are implemented in open-source software packages available from the authors.}
+      \field{issn}{1047-1987, 1476-4989}
+      \field{journaltitle}{Political Analysis}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{shortjournal}{Polit. anal.}
+      \field{title}{Computer-{{Assisted Text Analysis}} for {{Comparative Politics}}}
+      \field{volume}{23}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{254\bibrangedash 277}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1093/pan/mpu019
+      \endverb
+      \verb{file}
+      \verb /Users/zacharystuck/Zotero/storage/UXDVLP8V/Lucas et al. - 2015 - Computer-Assisted Text Analysis for Comparative Politics.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/S1047198700011736/type/journal_article
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/S1047198700011736/type/journal_article
+      \endverb
       \keyw{notion}
     \endentry
     \entry{mitzenOntologicalSecurityWorld2006}{article}{}{}
