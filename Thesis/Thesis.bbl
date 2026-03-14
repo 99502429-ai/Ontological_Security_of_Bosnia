@@ -1,0 +1,37 @@
+\begin{thebibliography}{8}
+\newcommand{\enquote}[1]{``#1''}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Giddens(1979)}]{giddens1979}
+\textsc{Giddens}, A. (1979): \emph{Central problems in social theory: action, structure, and contradiction in social analysis}.
+\newblock Berkeley: University of California Press.
+
+\bibitem[{Giddens(1991)}]{giddens1991}
+\textsc{Giddens}, A. (1991): \emph{Modernity and self-identity: self and society in the late modern age}.
+\newblock Stanford, Calif: Stanford University Press.
+
+\bibitem[{Kinnvall(2004)}]{kinnvall2004}
+\textsc{Kinnvall}, C. (2004): \enquote{Globalization and {Religious} {Nationalism}: {Self}, {Identity}, and the {Search} for {Ontological} {Security}.}
+\newblock \emph{Political Psychology} \textbf{25(5)}: pp. 741--767.
+
+\bibitem[{Kinnvall \& Mitzen(2020)}]{kinnvall2020a}
+\textsc{Kinnvall}, C. \& J.~\textsc{Mitzen} (2020): \enquote{Anxiety, fear, and ontological security in world politics: thinking with and beyond {Giddens}.}
+\newblock \emph{International Theory} \textbf{12(2)}: pp. 240--256.
+
+\bibitem[{Mitzen(2006)}]{mitzenOntologicalSecurityWorld2006}
+\textsc{Mitzen}, J. (2006): \enquote{Ontological {Security} in {World} {Politics}: {State} {Identity} and the {Security} {Dilemma}.}
+\newblock \emph{European Journal of International Relations} \textbf{12(3)}: pp. 341--370.
+
+\bibitem[{Todorova(2009)}]{todorova2009}
+\textsc{Todorova}, M.~N. (2009): \emph{Imagining the {Balkans}}.
+\newblock Oxford New York: Oxford University Press.
+
+\bibitem[{Weldes(1996)}]{weldes1996}
+\textsc{Weldes}, J. (1996): \enquote{Constructing {National} {Interests}.}
+\newblock \emph{European Journal of International Relations} \textbf{2(3)}: pp. 275--318.
+
+\bibitem[{Wendt(1992)}]{wendt1992}
+\textsc{Wendt}, A. (1992): \enquote{Anarchy is what states make of it: the social construction of power politics.}
+\newblock \emph{International Organization} \textbf{46(2)}: pp. 391--425.
+
+\end{thebibliography}

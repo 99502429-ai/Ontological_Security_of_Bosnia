@@ -1,0 +1,2 @@
+{"rule":"HE_VERB_AGR","sentence":"^\\QDue to the reliance on roles, identities often overlap, such as someone being both a father and a manager.\\E$"}
+{"rule":"EN_A_VS_AN","sentence":"^\\QSocial constructivism provides an \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q framework that is largely based on the concept of intersubjectivity—shared meaning and understanding—in society and how various actors influence these meanings and understandings.\\E$"}

@@ -1,4 +1,19 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
+# RStudio #
+###########
+*.Rproj.user
+*.Rhistory
+*.RData
+*.Ruserdata
+
+
+# Latex #
+#########
+*.aux
+*.bcf
+*.log
+*.xmpi
+*.log
+*.out
+*.xml
+*.gz
+*.toc
