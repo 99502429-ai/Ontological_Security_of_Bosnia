@@ -1,2 +1,108 @@
 \chapter{Methodological Framework}
 \label{chap:four}
+
+Ontological security relies on analysis of discourse and socio-cognitive aspects of society to determine how groups, primarily states in \ac{IR}, form and maintain stable identities, routines, and trust \citep{mitzenOntologicalSecurityWorld2006,kinnvall2004,subotic2015}. 
+
+\section{Methodology}
+\label{sec:method}
+
+
+
+\section{Data Collection \& Preparation}
+\label{sec:data_collection}
+
+%Potentially mention the existing codes
+
+The data used for analysis comes from the BiHCorp, which is a dataset that contains over 127 thousand speeches from transcriptions of debates in the Parliamentary Assembly of Bosnia and Herzegovina between 1998--2018 \citep{mochtak2022}. The relevant variables for this analysis are \textit{house, date, fullname, party,} and \textit{speech} \citep{mochtak2022}. The data was then constrained to a selection between 2010--2018 due to hardware limitations and scope. This working dataset was then machine translated using the \texttt{Helsinki-NLP/opus-mt-sla-en} model for Slavic languages to English \citep{tiedemann2020}. This model was chosen as an open source alternative to services such as Google Translate or DeepL due to the quantity of data and the model's comparable performance in South Slavic languages \citep{tiedemann2020}. Machine translation was necessary to ensure strong performance across various machine classification models, which are primarily trained on English language corpora, and due to the researcher's limited command of the Bosnian language. The use of machine translation allows for analysis on multilingual corpora or corpora outside a researcher's spoken languages while maintaining the majority of linguistic context and meaning \citep[pg.~7-8]{mate2023}.
+
+Following the preliminary data preparation and translation, the corpus was further refined to minimize the number of procedural speeches. Procedural speeches entail voting procedures, recess announcements, and other technical aspects or parliamentary proceedings. This was classified with the assistance of the ParlaCAP model \citet{parlacap_model}, which is an XLM-RoBERTa-large based model that was finetuned using proceedings from 29 European countries, to classify particular topics in parliamentary debate, although only the ``other'' classification was used for constraining the data to ontologically important speech. The final preparation step was segmenting each speech to fit the context window of the model for training and classification. The RoBERTa-large model has a context window of 512 tokens, and every speech was segmented to a maximum of 512 tokens for manual and machine aided classification. Table \ref{tab:sample_size} shows the number of samples throughout this collection and preparation phase. All scripts used throughout the analysis can be found in Appendix B.
+
+
+
+\begin{table}[h]
+    \centering
+    \caption{Total sample size throughout data preparation}
+    \begin{tabular}{lr}
+        \toprule
+        Stage & Sample size \\
+        \midrule
+        Initial & 127,713 \\
+        2010-2018 & 55,943 \\
+        Filtered & 26,353 \\
+        Segmented & 120,783 \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:sample_size}
+
+\end{table}
+
+\section{Model Training}
+\label{sec:model_training}
+
+This analysis required the training of a fine-tuned \texttt{RoBERTa-base} model, which was used for assigning relevant classifications to parliamentary debates. This model was chosen due to its proven effectiveness at similar tasks, and the use of a pre-trained model minimizes extensive training, corpus collection, and computing resources required to create effective multi-classification models \citep[pg.~2-3]{burst2024,timoneda2025} All use and training of models utilized the \textit{transformers} architecture, which is a standard pipeline for \ac{NLP} \citep[pg.~38-40]{wolf2020}. 
+
+
+
+\subsection{Text Classification \& Active Learning}
+\label{subsec:classification}
+
+A codebook was developed to capture discursive elements that have been deemed relevant to the formation of ontological (in)security, while limiting its size for increased model precision (\citealp[pg.~344-348]{mitzenOntologicalSecurityWorld2006}; \citealp[pg.~757-759]{kinnvall2004}; \citealp[pg.~2945-2947]{r.abas2022}). This codebook was then used for the classification of the initial training dataset and all subsequent amendments to it. This codebook includes aspects related to how actors identify themselves in their speech; the use of certain narrative devices like historical contextualization, moral agency, and the use of collective memory; and who or what the actor ``others'' \citep[pg.~259-265]{vandijk1993}. 
+
+An active learning approach was taken to increase the rate of model training and to provide training examples for classifications that are statistically rare in the dataset. Active learning involves manually classifying data in small batched, training the model, and then evaluating which data should be classified next based on the model's uncertainty \citep[pg.~322-323]{vacareanu2024}. There are various approaches to active learning, but the two criteria used were entropy (uncertainty) and rarity. Entropy represents the model's certainty of a prediction, and a high entropy represents a high level uncertainty \citep[pg.~323]{vacareanu2024}. 
+\begin{equation} \label{eq:entropy}
+H(x) = -\sum_{i=1}^{n} P(y_i | x) \log_2 P(y_i | x)
+\end{equation}
+Equation \ref{eq:entropy} was used in for all but 2 training rounds, and 50--70\% of each round drew from the pool of data that had the highest entropy. Although methods such as focal loss provide more cohesive statistics for rare classifications, the selection of classifications was done manually to address fluctuations in performance of particular classes due to small sample size. At the beginning of active learning, these data points accounted for 30\% of each round, but the last 100 samples were exclusively rare classifications to address imperfections in the training set. In each training round, the total dataset of manually classified texts was split into training and validations sets using ``multi-label iterative stratification,'' as it accounts for the imbalance in the dataset and provides enough validation samples from each category to accurately show the metrics for the model \citep[pg.~146-148]{Sechidis2011-df}. Table \ref{tab:training_results} shows the metrics of the model at every training stage, which reflect the model's ability to accurately classify political texts from the Parliamentary Assembly of Bosnia and Herzegovina in accordance with the codebook created for this analysis.
+
+\begin{table}[h]
+    \centering
+    \caption{Training performance by iteration}
+    \begin{tabular}{lrrrr}
+        \toprule
+        Sample Size & Validation Loss & $F_1$ Macro & $F_1$ Micro & Hamming Loss \\
+        \midrule
+        311 samples & 0.351 & 0.251 & 0.519 & 0.152 \\
+        400 samples & 0.316 & 0.340 & 0.632 & 0.130 \\
+        500 samples & 0.236 & 0.583 & 0.776 & 0.088 \\
+        600 samples & 0.144 & 0.870 & 0.915 & 0.036 \\
+        650 samples & 0.112 & 0.887 & 0.934 & 0.028 \\
+        700 samples & 0.108 & 0.895 & 0.939 & 0.026 \\
+       \bottomrule 
+    \end{tabular}
+    \label{tab:training_results}
+\end{table}
+
+
+
+\subsection{Model Performance}
+\label{subsec:model_performance}
+
+The final version of the model shows strong results using the final 700 sample training and validation set. The general results seen in table \ref{tab:training_results} and the results of the individual classifications in table \ref{tab:model_stat} are very strong, showing that the model is 89.5\% accurate overall, over 90--95\% accurate 11 of the 17 classifications, and only 2 classification have ~66\% accuracy. The primary indicators of the model's performance is the $F_1$ score (see equation \ref{eq:f1_score}), which accounts for the model's precision and recall, but the model also maintains extremely high precision (see equations \ref{eq:precision} and \ref{eq:recall}) \citep{r.abas2022}. This is indicative of a model that primarily classifies accurately and avoids inaccurate predictions, as seen by the high precision but lower recall values.
+
+\begin{equation} \label{eq:f1_score}
+F_1 = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}
+\end{equation}
+
+The lower performance the \texttt{COND\_CORRUPT} or \texttt{OTHER\_ABSTRACT} categories is likely due to the limited sample sizes available for training. Beyond explicit mentions of ``corruption,'' the model struggles to identify the nuanced linguistic markers of the \texttt{COND\_CORRUPT} class. As shown in Table \ref{tab:model_stat}, this category achieves perfect precision but only 50\% recall, illustrating a systemic ``hesitance'' in the model's predictions. Conversely, the \texttt{PROCEDURAL} class, characterized by highly predictable formulas like speaker introductions, proposed legislation, and other technical language, yields an $F_1$ score of 1.00, indicating near-perfect identification.
+
+As well as the model's strong metrics, training of encoder based models for political science has been increasingly used and validated, particularly with datasets of similar size \citep[pg.~85-87]{laurer2024}. The accuracy of this model is comparable to those discussed by \citet[pg.~85]{laurer2024}, and it allows analysis of significantly larger datasets while maintaining high accuracy. When comparing the accuracy of a transformers based model to measures such as Cohen's kappa, used for inter-coder reliability, the model performs with comparable results to classification by multiple humans \citep[pg.~140-141]{coleman2024}. \citet[pg.~141]{coleman2024} explain that a Cohen's kappa of 0.81 or higher signifies almost perfect agreement between coders, and a model's $F_1$ score is comparable to a kappa. Due to the resources available to this analysis, only one coder was the source for classification data, meaning that inconsistencies in the training data, or disagreement between the coder and the model can also explain the $F_1$ scores.
+
+\section{Machine Assisted Analysis}
+\label{sec:maching_analysis}
+
+All models used, including the model trained for this analysis are available for use via HuggingFace, a community hub for sharing models, and the HuggingFace pipeline was implemented for all task where suitable using the \textit{Transformers} library \citep[pg.~38-39]{wolf2020}. To minimize storage space, all results were stored as ``Apache Parquet'' files, and the analysis utilized the HuggingFace Dataset objects for efficient batching at scale \citep[pg.~38-39]{parquet2025, wolf2020}.
+
+After model training was complete, the model was applied to the entire dataset with a confidence threshold of 0.50 \citep[pg.~5]{pungersek2026}. This data could then be further used throughout the analysis to identify ontologically relevant trends and segments across parliamentary speeches.
+
+As well as the custom model for this analysis, two other transformers based models were used as well. The first is \texttt{ParlaSent}, which is a fine-tuned model used for sentiment analysis of parliamentary debate, which is based on \texttt{xlm-r-parla} and trained on 18 thousand parliamentary debates across 7 languages \citep{mochtak2025}. This model was partially trained using data from the Parliamentary Assembly of Bosnia and Herzegovina, further validating the use of this model and others on this dataset \citep[pg.~4-5]{mochtak2025}. The model returns sentiment on a 0--5 scale, which is used in later statistical analysis comparing certain topics and ontologically relevant categories to determine overlap and significance. Although the model is able to analyze sentiment in the Bosnian language, the sentiment was applied to the translated segments to maintain consistency across the entire methodology \citep[pg.~6]{mochtak2025}.
+
+The last model that was used for this analysis was \texttt{BERTopic}, which is a model trained to cluster texts based on their embeddings, similar to traditional TF-IDF \citep[pg.~2]{grootendorst2022}. This is used to find common topics across the parliamentary debates, and allows for understanding how certain topics coincide with different classifications and sentiments. By creating these topics based on similarities specifically in the texts, the analysis is able to determine the primary discussion points driving ontological (in)security. \texttt{BERTopic} has been used in a variety of different application across political science, and is a recognized standard for topic analysis on large datasets \citep{}. The model was only applied to texts that were classified at substantial to the analysis, as applying this to all texts would largely skew the results toward procedural topics due to the granularity of \texttt{BERTopic} ($N=55,976$).  To ensure replicability, UMAP and HDMSCAN parameters were set (see Appendix \ref{chap:comp_flow}), which control dimension reduction and clustering respectively (\citealp[pg.~1-3]{grootendorst2022}; \citealp[pg.~1-3]{mcinnes2020}; \citealp[pg.~1-2]{mcinnes2017}) As well as controlling these parameters, the model also utilized \texttt{KeyBERTInspired}, which is an additional model that is used to increase the readability of the topics found by the base \texttt{BERTopic} model \citep{grootendorst2022}
+% FIND CITATIONS FOR USING BERTopic!!! & Count of texts
+
+By combining these 3 models, this analysis can draw upon the topics discussed, how certain discursive elements are used, and how positively or negatively each of these aspects are portrayed. These metrics allow for comprehensive empirical analysis that also informs the broader contextual analysis in the following chapters.
+
+
+
+
+
+

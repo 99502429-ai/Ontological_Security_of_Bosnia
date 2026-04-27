@@ -1,0 +1,181 @@
+\chapter{Expanded Results}
+\label{chap:expand_results}
+
+\begin{table}[ht]
+    \centering
+    \caption{Model performance statistics including individual classification performance and overall performance}
+    \begin{tabular}{lrrrr}
+        \toprule
+        Classification & Precision & Recall & F1 Score & Support \\
+        \midrule
+        \texttt{COLLECT\_MEM}            & 1.0000 & 0.8235 & 0.9032 & 17 \\
+        \texttt{COND\_CORRUPT}           & 1.0000 & 0.5000 & 0.6667 & 6 \\
+        \texttt{EXIST\_IDENTITY}         & 0.8780 & 1.0000 & 0.9351 & 36 \\
+        \texttt{HIST\_CONT}              & 1.0000 & 0.7273 & 0.8421 & 11 \\
+        \texttt{MORAL\_AGENCY}           & 0.8500 & 1.0000 & 0.9189 & 51 \\
+        \texttt{OTHER\_ABSTRACT}         & 1.0000 & 0.5000 & 0.6667 & 14 \\
+        \texttt{OTHER\_EXTERNAL}         & 1.0000 & 0.7917 & 0.8837 & 24 \\
+        \texttt{OTHER\_INTERNAL}         & 0.9216 & 0.9792 & 0.9495 & 48 \\
+        \texttt{PROCEDURAL}              & 1.0000 & 1.0000 & 1.0000 & 12 \\
+        \texttt{ROUTINE\_DEF}            & 0.9412 & 0.9796 & 0.9600 & 49 \\
+        \texttt{SELF\_ETHNIC}            & 1.0000 & 0.7000 & 0.8235 & 10 \\
+        \texttt{SELF\_GOV}               & 0.9630 & 0.8966 & 0.9286 & 29 \\
+        \texttt{SELF\_PARTY}             & 1.0000 & 0.8182 & 0.9000 & 11 \\
+        \texttt{SELF\_STATE}             & 0.9310 & 1.0000 & 0.9643 & 54 \\
+        \texttt{SELF\_TRANS}             & 1.0000 & 0.8000 & 0.8889 & 5 \\
+        \texttt{SUBSTANTIVE\_IDENTITY}    & 0.9890 & 1.0000 & 0.9945 & 90 \\
+        \texttt{SUBSTANTIVE\_TECHNICAL}   & 1.0000 & 0.9677 & 0.9836 & 31 \\
+        \midrule
+        Micro Avg                        & 0.9451 & 0.9337 & 0.9394 & 498 \\
+        Macro Avg                        & 0.9690 & 0.8520 & 0.8947 & 498 \\
+        Weighted Avg                     & 0.9509 & 0.9337 & 0.9355 & 498 \\
+        Samples Avg                      & 0.9618 & 0.9517 & 0.9551 & 498 \\
+        \bottomrule   
+    \end{tabular}
+    \label{tab:model_stat}
+    
+\end{table}
+
+\begin{table}[ht]
+    \centering
+    \caption{Total count of classifications}
+    \begin{tabular}{lrr}
+    \toprule
+    Classification & Count & Relative Frequency \\
+    \midrule
+    \texttt{SUBSTANTIVE\_IDENTITY} & 55,976 & 46.34\% \\
+    \texttt{SUBSTANTIVE\_TECHNICAL} & 39,544 & 32.74\% \\
+    \texttt{PROCEDURAL} & 23,708 & 19.63\% \\
+    \texttt{SELF\_STATE} & 21,640 & 17.92\% \\
+    \texttt{OTHER\_INTERNAL} & 21,461 & 17.77\% \\
+    \texttt{ROUTINE\_DEF} & 19,156 & 15.86\% \\
+    \texttt{SELF\_GOV} & 18,379 & 15.22\% \\
+    \texttt{MORAL\_AGENCY} & 12,257 & 10.15\% \\
+    \texttt{EXIST\_IDENTITY} & 8,241 & 6.82\% \\
+    \texttt{OTHER\_EXTERNAL} & 3,406 & 2.82\% \\
+    \texttt{SELF\_PARTY} & 3,354 & 2.78\% \\
+    \texttt{COLLECT\_MEM} & 1,482 & 1.23\% \\
+    \texttt{SELF\_ETHNIC} & 1,125 & 0.93\% \\
+    \texttt{HIST\_CONT} & 696 & 0.58\% \\
+    \texttt{OTHER\_ABSTRACT} & 196 & 0.16\% \\
+    \texttt{SELF\_TRANS} & 75 & 0.06\% \\
+    \texttt{COND\_CORRUPT} & 50 & 0.04\% \\
+    \bottomrule
+    \end{tabular}
+    \label{tab:class_counts}
+\end{table}
+
+
+\begin{table}[htbp]
+\centering
+\caption{Rhetorical Archetypes: Grouped Classification Probabilities (N=55,976)}
+\label{tab:grouped_clusters}
+\small
+\begin{tabular}{lr}
+\toprule
+\textbf{Classification Code} & \textbf{Probability} \\ 
+\midrule
+\multicolumn{2}{l}{\textbf{Archetype 0: Institutional Othering}} \\
+\midrule
+OTHER\_INTERNAL & 0.879 \\
+ROUTINE\_DEF    & 0.728 \\
+SELF\_GOV       & 0.434 \\
+MORAL\_AGENCY   & 0.413 \\
+SELF\_PARTY     & 0.315 \\
+\midrule
+\multicolumn{2}{l}{\textbf{Archetype 1: Existential Statehood (Weaponized)}} \\
+\midrule
+SELF\_STATE     & 0.945 \\
+ROUTINE\_DEF    & 0.848 \\
+MORAL\_AGENCY   & 0.520 \\
+EXIST\_IDENTITY & 0.484 \\
+OTHER\_INTERNAL & 0.384 \\
+\midrule
+\multicolumn{2}{l}{\textbf{Archetype 2: Internal Governance}} \\
+\midrule
+SELF\_GOV       & 0.461 \\
+OTHER\_INTERNAL & 0.279 \\
+ROUTINE\_DEF    & 0.063 \\
+\midrule
+\multicolumn{2}{l}{\textbf{Archetype 3: Historical/Mneomonic Statehood}} \\
+\midrule
+SELF\_STATE     & 0.773 \\
+COLLECT\_MEM    & 0.746 \\
+OTHER\_INTERNAL & 0.559 \\
+ROUTINE\_DEF    & 0.441 \\
+HIST\_CONT      & 0.349 \\
+\midrule
+\multicolumn{2}{l}{\textbf{Archetype 4: Civic/Moral Statehood (Positive)}} \\
+\midrule
+SELF\_STATE     & 0.964 \\
+MORAL\_AGENCY   & 0.230 \\
+OTHER\_INTERNAL & 0.186 \\
+ROUTINE\_DEF    & 0.132 \\
+\bottomrule
+
+\multicolumn{2}{l}{\textit{Note: Only codes with probability > 0.10 shown for clarity.}} \\
+\end{tabular}
+\end{table}
+
+
+
+
+
+\begin{longtable} {p{6.5cm} S[table-format=-1.3] S[table-format=1.3] S[table-format=-1.3] S[table-format=1.3]}
+\caption{Mixed Linear Model: Sentiment as a Function of Topic, Archetype, and Party} \label{tab:mixed_model_results} \\
+\toprule
+\textbf{Variable} & \textbf{Coef.} & \textbf{Std.Err.} & \textbf{z} & \textbf{P$>|$z$|$} \\
+\midrule
+\endfirsthead
+
+\multicolumn{5}{c}%
+{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+\toprule
+\textbf{Variable} & \textbf{Coef.} & \textbf{Std.Err.} & \textbf{z} & \textbf{P$>|$z$|$} \\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{5}{r}{{Continued on next page}} \\
+\bottomrule
+\endfoot
+
+\bottomrule
+\endlastfoot
+
+\textbf{Intercept} & 0.434 & 0.026 & 16.627 & 0.000 \\
+\addlinespace
+\textit{Main Effects: Topics} & & & & \\
+Topic 1 (Council of Ministers ) & 0.004 & 0.026 & 0.153 & 0.878 \\
+Topic 23 (Corruption/Crime) & -0.150 & 0.032 & -4.709 & 0.000 \\
+Topic 2 (Prosecutor/Judicial) & -0.131 & 0.024 & -5.393 & 0.000 \\
+Topic 30 (Terrorism/Islam) & -0.208 & 0.039 & -5.349 & 0.000 \\
+Topic 37 (Stray Animals) & -0.159 & 0.037 & -4.316 & 0.000 \\
+Topic 3 (EU Integration) & 0.048 & 0.026 & 1.829 & 0.067 \\
+Topic 41 (Genocide/Srebrenica) & -0.080 & 0.050 & -1.620 & 0.105 \\
+Topic 7 (Budget/Fiscal) & -0.131 & 0.029 & -4.484 & 0.000 \\
+\addlinespace
+\textit{Main Effects: Rhetorical Archetypes} & & & & \\
+Existential Statehood & -0.141 & 0.025 & -5.672 & 0.000 \\
+Historical/Memory Statehood & -0.145 & 0.055 & -2.649 & 0.008 \\
+Institutional Othering & -0.176 & 0.021 & -8.293 & 0.000 \\
+Internal Governance & -0.068 & 0.019 & -3.496 & 0.000 \\
+\addlinespace
+\textit{Control: Party Identity} & & & & \\
+Koalicija & -0.047 & 0.022 & -2.143 & 0.032 \\
+SDS & -0.067 & 0.027 & -2.500 & 0.012 \\
+SNSD & -0.085 & 0.023 & -3.708 & 0.000 \\
+\addlinespace
+\textit{Significant Interactions (Selection)} & & & & \\
+Topic 2 $\times$ Existential & 0.126 & 0.033 & 3.780 & 0.000 \\
+Topic 41 $\times$ Existential & 0.252 & 0.064 & 3.911 & 0.000 \\
+Topic 2 $\times$ Othering & 0.126 & 0.029 & 4.301 & 0.000 \\
+Topic 7 $\times$ Othering & 0.116 & 0.039 & 2.982 & 0.003 \\
+\addlinespace
+\midrule
+Group Variance (Speaker) & 0.002 & 0.002 & & \\
+Log-Likelihood & -284.392 & & & \\
+Observations & 13695 & & & \\
+\end{longtable}
+
+

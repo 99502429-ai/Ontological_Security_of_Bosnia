@@ -42,12 +42,22 @@ mp_describe_code("602.1")
 
 
 ```{r}
-df <- readRDS("BiH_02-07_term_final.RDS")
+df <- readRDS("BiH_02-07_term_final.RDS") %>% 
+  mutate(date = ymd(date),
+         date = str_replace_all(date, "3013-", "2013-"),
+         date_raw = str_replace_all(date_raw, ".3013", ".2013")) %>% 
+  filter(date >= ymd("2010-01-01"))
 
 sum <- df %>% 
   summarise(dateRange = paste0(first(term1), "-", last(term1)))
 
+turk <- df %>% 
+  filter(str_detect(lem, "[Tt]urska|[Tt]urc"))
 
+rus <- df %>% 
+  filter(str_detect(lem, "[Rr]usija|[Rr]uski"))
+
+write_csv(df, "parliment_debates_BA.csv")
 
 ```
 

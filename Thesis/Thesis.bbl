@@ -1,6 +1,24 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{37}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
+
+\bibitem[{{Apache Parquet Project}(2025)}]{parquet2025}
+\textsc{{Apache Parquet Project}} (2025): \enquote{Apache {Parquet}.}
+
+\bibitem[{Bringa(2000)}]{Bringa_2000}
+\textsc{Bringa}, T.~R. (2000): \enquote{Nationality categories, national identification and identity formation in "multinational" bosnia.}
+\newblock \emph{Anthropology of East Europe Review} \textbf{11(1 \& 2)}: pp. 80--89.
+
+\bibitem[{Burst \emph{et~al.}(2024)Burst, Lehmann, Franzmann, Al-Gaddooa, Ivanusch, Regel, Riethmuller, We{\ss}els, \& Zehnter}]{burst2024}
+\textsc{Burst}, T., P.~\textsc{Lehmann}, S.~\textsc{Franzmann}, D.~\textsc{Al-Gaddooa}, C.~\textsc{Ivanusch}, S.~\textsc{Regel}, F.~\textsc{Riethmuller}, B.~\textsc{We{\ss}els}, \& L.~\textsc{Zehnter} (2024): \enquote{manifestoberta. {Version} 56topics.sentence.2024.1.1.}
+
+\bibitem[{Coleman \emph{et~al.}(2024)Coleman, Ragan, \& Dari}]{coleman2024}
+\textsc{Coleman}, M.~L., M.~\textsc{Ragan}, \& T.~\textsc{Dari} (2024): \enquote{Intercoder {Reliability} for {Use} in {Qualitative} {Research} and {Evaluation}.}
+\newblock \emph{Measurement and Evaluation in Counseling and Development} \textbf{57(2)}: pp. 136--146.
+
+\bibitem[{David(2019)}]{davidPolicingMemoryBosnia2019}
+\textsc{David}, L. (2019): \enquote{Policing {Memory} in {Bosnia}: {Ontological} {Security} and {International} {Administration} of {Memorialization} {Policies}.}
+\newblock \emph{International Journal of Politics, Culture, and Society} \textbf{32(2)}: pp. 211--225.
 
 \bibitem[{Giddens(1979)}]{giddens1979}
 \textsc{Giddens}, A. (1979): \emph{Central problems in social theory: action, structure, and contradiction in social analysis}.
@@ -10,6 +28,17 @@
 \textsc{Giddens}, A. (1991): \emph{Modernity and self-identity: self and society in the late modern age}.
 \newblock Stanford, Calif: Stanford University Press.
 
+\bibitem[{Grootendorst(2022)}]{grootendorst2022}
+\textsc{Grootendorst}, M. (2022): \enquote{{BERTopic}: {Neural} topic modeling with a class-based {TF}-{IDF} procedure.}
+\newblock ArXiv:2203.05794 [cs].
+
+\bibitem[{Halford()}]{Halford_Prince}
+\textsc{Halford}, M. (????): \enquote{Prince.}
+
+\bibitem[{Ikotun \emph{et~al.}(2023)Ikotun, Ezugwu, Abualigah, Abuhaija, \& Heming}]{ikotun2023}
+\textsc{Ikotun}, A.~M., A.~E. \textsc{Ezugwu}, L.~\textsc{Abualigah}, B.~\textsc{Abuhaija}, \& J.~\textsc{Heming} (2023): \enquote{K-means clustering algorithms: {A} comprehensive review, variants analysis, and advances in the era of big data.}
+\newblock \emph{Information Sciences} \textbf{622}: pp. 178--210.
+
 \bibitem[{Kinnvall(2004)}]{kinnvall2004}
 \textsc{Kinnvall}, C. (2004): \enquote{Globalization and {Religious} {Nationalism}: {Self}, {Identity}, and the {Search} for {Ontological} {Security}.}
 \newblock \emph{Political Psychology} \textbf{25(5)}: pp. 741--767.
@@ -18,17 +47,93 @@
 \textsc{Kinnvall}, C. \& J.~\textsc{Mitzen} (2020): \enquote{Anxiety, fear, and ontological security in world politics: thinking with and beyond {Giddens}.}
 \newblock \emph{International Theory} \textbf{12(2)}: pp. 240--256.
 
+\bibitem[{Kuzman~Punger{\v s}ek \& Ljube{\v s}i{\'c}(2025)}]{parlacap_model}
+\textsc{Kuzman~Punger{\v s}ek}, T. \& N.~\textsc{Ljube{\v s}i{\'c}} (2025): \enquote{Multilingual {ParlaCAP} model for {CAP} topic classification in parliamentary speeches.}
+
+\bibitem[{Laurer \emph{et~al.}(2024)Laurer, Van~Atteveldt, Casas, \& Welbers}]{laurer2024}
+\textsc{Laurer}, M., W.~\textsc{Van~Atteveldt}, A.~\textsc{Casas}, \& K.~\textsc{Welbers} (2024): \enquote{Less {Annotating}, {More} {Classifying}: {Addressing} the {Data} {Scarcity} {Issue} of {Supervised} {Machine} {Learning} with {Deep} {Transfer} {Learning} and {BERT}-{NLI}.}
+\newblock \emph{Political Analysis} \textbf{32(1)}: pp. 84--100.
+
+\bibitem[{Mate \emph{et~al.}(2023)Mate, Seb{\H o}k, Wordliczek, Stolicki, \& Feldmann}]{mate2023}
+\textsc{Mate}, A., M.~\textsc{Seb{\H o}k}, L.~\textsc{Wordliczek}, D.~\textsc{Stolicki}, \& {\'A}.~\textsc{Feldmann} (2023): \enquote{Machine {Translation} as an {Underrated} {Ingredient}? {Solving} {Classification} {Tasks} with {Large} {Language} {Models} for {Comparative} {Research}.}
+\newblock \emph{Computational Communication Research} \textbf{5(2)}: p.~1.
+
+\bibitem[{McInnes \& Healy(2017)}]{mcinnes2017}
+\textsc{McInnes}, L. \& J.~\textsc{Healy} (2017): \enquote{Accelerated {Hierarchical} {Density} {Clustering}.}
+\newblock In \enquote{2017 {IEEE} {International} {Conference} on {Data} {Mining} {Workshops} ({ICDMW}),} pp. 33--42.
+\newblock ArXiv:1705.07321 [stat].
+
+\bibitem[{McInnes \emph{et~al.}(2020)McInnes, Healy, \& Melville}]{mcinnes2020}
+\textsc{McInnes}, L., J.~\textsc{Healy}, \& J.~\textsc{Melville} (2020): \enquote{{UMAP}: {Uniform} {Manifold} {Approximation} and {Projection} for {Dimension} {Reduction}.}
+\newblock ArXiv:1802.03426 [stat].
+
 \bibitem[{Mitzen(2006)}]{mitzenOntologicalSecurityWorld2006}
 \textsc{Mitzen}, J. (2006): \enquote{Ontological {Security} in {World} {Politics}: {State} {Identity} and the {Security} {Dilemma}.}
 \newblock \emph{European Journal of International Relations} \textbf{12(3)}: pp. 341--370.
+
+\bibitem[{Mochtak \emph{et~al.}(2022)Mochtak, Glaurdi{\'c}, Lesschaeve, \& Muharemovi{\'c}}]{mochtak2022}
+\textsc{Mochtak}, M., J.~\textsc{Glaurdi{\'c}}, C.~\textsc{Lesschaeve}, \& E.~\textsc{Muharemovi{\'c}} (2022): \enquote{{BiHCorp}: {Corpus} of {Parliamentary} {Debates} in {Bosnia} and {Herzegovina}.} .
+
+\bibitem[{Mochtak \emph{et~al.}(2025)Mochtak, Rupnik, Kuzman, \& Ljube{\v s}i{\'c}}]{mochtak2025}
+\textsc{Mochtak}, M., P.~\textsc{Rupnik}, T.~\textsc{Kuzman}, \& N.~\textsc{Ljube{\v s}i{\'c}} (2025): \enquote{Parlasent: mapping sentiment in political discourse with large language models.}
+\newblock \emph{Political Research Exchange} \textbf{7(1)}: p. 2508377.
+\newblock \_eprint: https://doi.org/10.1080/2474736X.2025.2508377.
 
 \bibitem[{Norton(1988)}]{norton1988}
 \textsc{Norton}, A. (1988): \emph{Reflections on political identity}.
 \newblock The {Johns} {Hopkins} series in constitutional thought. Baltimore: Johns Hopkins University Press.
 
+\bibitem[{{OSCE Mission to Bosnia and Herzegovina}(1995)}]{oscemissiontobosniaandherzegovina1995}
+\textsc{{OSCE Mission to Bosnia and Herzegovina}} (1995): \enquote{Dayton {Peace} {Agreement}, {General} {Framework} {Agreement} for {Peace} in {Bosnia} and {Herzegovinia}.}
+
+\bibitem[{{Parlamentarna skup{\v s}tina}(2026)}]{Parlamentarna_2026}
+\textsc{{Parlamentarna skup{\v s}tina}} (2026): \enquote{Representatives convocation 2022 - 2026.}
+
+\bibitem[{Pedregosa \emph{et~al.}(2011)Pedregosa, Varoquaux, Gramfort, Michel, Thirion, Grisel, Blondel, Prettenhofer, Weiss, Dubourg, Vanderplas, Passos, Cournapeau, Brucher, Perrot, \& Duchesnay}]{scikit-learn}
+\textsc{Pedregosa}, F., G.~\textsc{Varoquaux}, A.~\textsc{Gramfort}, V.~\textsc{Michel}, B.~\textsc{Thirion}, O.~\textsc{Grisel}, M.~\textsc{Blondel}, P.~\textsc{Prettenhofer}, R.~\textsc{Weiss}, V.~\textsc{Dubourg}, J.~\textsc{Vanderplas}, A.~\textsc{Passos}, D.~\textsc{Cournapeau}, M.~\textsc{Brucher}, M.~\textsc{Perrot}, \& E.~\textsc{Duchesnay} (2011): \enquote{Scikit-learn: {Machine} learning in {Python}.}
+\newblock \emph{Journal of Machine Learning Research} \textbf{12}: pp. 2825--2830.
+
+\bibitem[{Punger{\v s}ek \emph{et~al.}(2026)Punger{\v s}ek, Rupnik, {\v S}irini{\'c}, \& Ljube{\v s}i{\'c}}]{pungersek2026}
+\textsc{Punger{\v s}ek}, T.~K., P.~\textsc{Rupnik}, D.~\textsc{{\v S}irini{\'c}}, \& N.~\textsc{Ljube{\v s}i{\'c}} (2026): \enquote{Supercharging {Agenda} {Setting} {Research}: {The} {ParlaCAP} {Dataset} of 28 {European} {Parliaments} and a {Scalable} {Multilingual} {LLM}-{Based} {Classification}.}
+\newblock ArXiv:2602.16516 [cs].
+
+\bibitem[{R.~Abas \emph{et~al.}(2022)R.~Abas, Elhenawy, Zidan, \& Othman}]{r.abas2022}
+\textsc{R.~Abas}, A., I.~\textsc{Elhenawy}, M.~\textsc{Zidan}, \& M.~\textsc{Othman} (2022): \enquote{{BERT}-{CNN}: {A} {Deep} {Learning} {Model} for {Detecting} {Emotions} from {Text}.}
+\newblock \emph{Computers, Materials \& Continua} \textbf{71(2)}: pp. 2943--2961.
+
+\bibitem[{Sechidis \emph{et~al.}(2011)Sechidis, Tsoumakas, \& Vlahavas}]{Sechidis2011-df}
+\textsc{Sechidis}, K., G.~\textsc{Tsoumakas}, \& I.~\textsc{Vlahavas} (2011): \enquote{On the stratification of multi-label data.}
+\newblock In \enquote{Machine learning and knowledge discovery in databases,} Lecture notes in computer science, pp. 145--158. Berlin, Heidelberg: Springer Berlin Heidelberg.
+
+\bibitem[{Senn \emph{et~al.}(2025)Senn, Schwaderer, Hayek, \& Dingler}]{senn2025}
+\textsc{Senn}, M., C.~\textsc{Schwaderer}, L.~\textsc{Hayek}, \& S.~C. \textsc{Dingler} (2025): \enquote{Mapping rhetorical styles in political crisis communication.}
+\newblock \emph{Policy Studies} \textbf{0(0)}: pp. 1--21.
+\newblock \_eprint: https://doi.org/10.1080/01442872.2025.2546385.
+
+\bibitem[{Suboti{\'c}(2015)}]{subotic2015}
+\textsc{Suboti{\'c}}, J. (2015): \enquote{Narrative, {Ontological} {Security}, and {Foreign} {Policy} {Change}.}
+\newblock \emph{Foreign Policy Analysis} pp. 610--627.
+
+\bibitem[{Tiedemann \& Thottingal(2020)}]{tiedemann2020}
+\textsc{Tiedemann}, J. \& S.~\textsc{Thottingal} (2020): \enquote{{OPUS}-{MT} {\textemdash} {Building} open translation services for the {World}.}
+\newblock In \enquote{Proceedings of the 22nd {Annual} {Conferenec} of the {European} {Association} for {Machine} {Translation} ({EAMT}),} Lisbon, Portugal.
+
+\bibitem[{Timoneda \& Vera(2025)}]{timoneda2025}
+\textsc{Timoneda}, J.~C. \& S.~V. \textsc{Vera} (2025): \enquote{Behind the mask: {Random} and selective masking in transformer models applied to specialized social science texts.}
+\newblock \emph{PLOS ONE} \textbf{20(2)}: p. e0318421.
+
 \bibitem[{Todorova(2009)}]{todorova2009}
 \textsc{Todorova}, M.~N. (2009): \emph{Imagining the {Balkans}}.
 \newblock Oxford New York: Oxford University Press.
+
+\bibitem[{Vacareanu \emph{et~al.}(2024)Vacareanu, Noriega-Atala, Hahn-Powell, Valenzuela-Escarcega, \& Surdeanu}]{vacareanu2024}
+\textsc{Vacareanu}, R., E.~\textsc{Noriega-Atala}, G.~\textsc{Hahn-Powell}, M.~A. \textsc{Valenzuela-Escarcega}, \& M.~\textsc{Surdeanu} (2024): \enquote{Active {Learning} {Design} {Choices} for {NER} with {Transformers}.}
+\newblock In N.~\textsc{Calzolari}, M.~Y. \textsc{Kan}, V.~\textsc{Hoste}, A.~\textsc{Lenci}, S.~\textsc{Sakti}, \& N.~\textsc{Xue} (editors), \enquote{Proceedings of the 2024 {Joint} {International} {Conference} on {Computational} {Linguistics}, {Language} {Resources} and {Evaluation}, {Lrec}-{Coling} 2024,} pp. 321--334. Stroudsburg: Assoc Computational Linguistics-Acl.
+\newblock Num Pages: 14 Series Title: International Conference on Computational Linguistics Language Resources and Evaluation Web of Science ID: WOS:001592980400030.
+
+\bibitem[{Van~Dijk(1993)}]{vandijk1993}
+\textsc{Van~Dijk}, T.~A. (1993): \enquote{Principles of {Critical} {Discourse} {Analysis}.}
+\newblock \emph{Discourse \& Society} \textbf{4(2)}: pp. 249--283.
 
 \bibitem[{Weldes(1996)}]{weldes1996}
 \textsc{Weldes}, J. (1996): \enquote{Constructing {National} {Interests}.}
@@ -37,5 +142,9 @@
 \bibitem[{Wendt(1992)}]{wendt1992}
 \textsc{Wendt}, A. (1992): \enquote{Anarchy is what states make of it: the social construction of power politics.}
 \newblock \emph{International Organization} \textbf{46(2)}: pp. 391--425.
+
+\bibitem[{Wolf \emph{et~al.}(2020)Wolf, Debut, Sanh, Chaumond, Delangue, Moi, Cistac, Rault, Louf, Funtowicz, Davison, Shleifer, von Platen, Ma, Jernite, Plu, Xu, Le~Scao, Gugger, Drame, Lhoest, \& Rush}]{wolf2020}
+\textsc{Wolf}, T., L.~\textsc{Debut}, V.~\textsc{Sanh}, J.~\textsc{Chaumond}, C.~\textsc{Delangue}, A.~\textsc{Moi}, P.~\textsc{Cistac}, T.~\textsc{Rault}, R.~\textsc{Louf}, M.~\textsc{Funtowicz}, J.~\textsc{Davison}, S.~\textsc{Shleifer}, P.~\textsc{von Platen}, C.~\textsc{Ma}, Y.~\textsc{Jernite}, J.~\textsc{Plu}, C.~\textsc{Xu}, T.~\textsc{Le~Scao}, S.~\textsc{Gugger}, M.~\textsc{Drame}, Q.~\textsc{Lhoest}, \& A.~\textsc{Rush} (2020): \enquote{Transformers: {State}-of-the-{Art} {Natural} {Language} {Processing}.}
+\newblock In Q.~\textsc{Liu} \& D.~\textsc{Schlangen} (editors), \enquote{Proceedings of the 2020 {Conference} on {Empirical} {Methods} in {Natural} {Language} {Processing}: {System} {Demonstrations},} pp. 38--45. Online: Association for Computational Linguistics.
 
 \end{thebibliography}

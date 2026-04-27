@@ -1,2 +1,218 @@
-\chapter{Data}
+\chapter{Empirical Analysis}
 \label{chap:five}
+
+Following the classification, sentiment analysis, and topic modelling, a variety of statistical analysis can be applied to address the roll of political speech in identity, routine, and trust. For the purpose of analysis, only speech segments that were classified as \texttt{SUBSTANTIVE\_IDENTITY} are included in the statistical analysis ($N=55,976$) (see Table \ref{tab:class_counts}). Table \ref{tab:class_count_identity} show the total number of segments by classification and the relative frequency across the substantive segments, showing that the most common classification revolve around the state and another actor within the state, while direct condemnation of corruption or broad identification of self were rarely classified. 
+% ADD MORE HERE!!!
+
+\begin{table}[htbp]
+    \centering
+    \caption{Total count and relative frequency of substantive segments by classification}
+    \begin{tabular}{lrr}
+    \toprule
+    Classification & Count & Relative Frequency \\
+    \midrule
+    \texttt{SELF\_STATE} & 21,632 & 38.65\% \\
+    \texttt{OTHER\_INTERNAL} & 21,448 & 38.32\% \\
+    \texttt{ROUTINE\_DEF} & 19,152 & 34.21\% \\
+    \texttt{SELF\_GOV} & 18,377 & 32.83\% \\
+    \texttt{MORAL\_AGENCY} & 12,254 & 21.89\% \\
+    \texttt{EXIST\_IDENTITY} & 8,238 & 14.72\% \\
+    \texttt{OTHER\_EXTERNAL} & 3,400 & 6.07\% \\
+    \texttt{SELF\_PARTY} & 3,353 & 5.99\% \\
+    \texttt{COLLECT\_MEM} & 1,478 & 2.64\% \\
+    \texttt{SELF\_ETHNIC} & 1,123 & 2.01\% \\
+    \texttt{HIST\_CONT} & 694 & 1.24\% \\
+    \texttt{OTHER\_ABSTRACT} & 195 & 0.35\% \\
+    \texttt{SELF\_TRANS} & 75 & 0.13\% \\
+    \texttt{COND\_CORRUPT} & 50 & 0.09\% \\
+    \bottomrule
+    \end{tabular}
+    \label{tab:class_count_identity}
+
+\end{table}
+
+This correlates with the qualitative understanding of these texts, but the model's ability to classify these minor classifications may also be a result of limited samples in the training data set. Due to speakers being able to leverage multiple identifications of self and other, as well as multiple rhetorical devices, many classifications have an overlap. Figure \ref{fig:class_overlap_heatmap} shows the Jaccard similarity index (Equation \ref{eq:jaccard_index}) for every classification, and a few groups stand out. The largest overlap is the identification with the state and routine definition, signifying these two are commonly used together in speech. Similarly, routine definition is also common with internal othering and moral agency. These overlaps provide insight into the common patterns used in political debate in \ac{BiH}, and these patterns show significant effects on how political speech is framed and the sentiment used. 
+
+
+
+\begin{figure}[htbp]
+    \centering
+    \caption{Overlap of classifications shown with Jaccard Similarity index}
+    \includegraphics[width=0.9\textwidth]{Figures/class_overlap_heatmap.pdf}
+    \label{fig:class_overlap_heatmap}
+\end{figure}
+
+\section{Archetype Clustering}
+\label{sec:arch_clust}
+
+To address this overlap for further use in statistical analysis, these classifications were clustered into five rhetorical archetypes. The method used to create these archetypes was k-means clustering, a commonly used algorithm form grouping data into categories based on the mean value of certain attributes (\citealp[pg.~179-180]{ikotun2023}; \citealp[pg.~7-9]{senn2025}). Although this is primarily used in data science or natural sciences, \citet{senn2025} utilized this method identify different communication styles used by politicians during the Covid-19 pandemic. These clusters not only provide insight into the structure of debates in \ac{BiH}, but also who uses certain structures. 
+
+The clustering of the classifications was computed in python with the \texttt{prince} and \texttt{scikit-learn} packages, and the outcomes can be found in table \ref{tab:grouped_clusters} \citep{Halford_Prince,scikit-learn}. This clustering was computed on a subset of the data that consisted of only political parties with over 2,000 segments present in the data to prevent outliers from skewing the algorithm, and to maintain the same sample size for analysis regarding the effect of party membership on political speech. Furthermore, 5 clusters were chosen to understand the larger patterns used in political speech, and these broader archetypes capture the types of self and other identities and the rhetorical devices used \citep[pg.~9]{senn2025}. These 5 clusters were then assigned to the texts according to their classifications and the classifications belonging to these clusters. The total count of segments belonging to clusters can be seen in table \ref{tab:cluster_count}, which shows a high use of internal governance and institutional othering.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Total count of segments per rhetorical archetype}
+
+    \begin{tabular}{lr}
+    \toprule
+    Rhetorical Archetype & Count \\
+    \midrule
+    Internal Governance & 19500 \\
+    Institutional Othering & 7816 \\
+    Existential Statehood & 7629 \\
+    Civic/Moral Statehood & 7068 \\
+    Historical/Memory Statehood & 1592 \\
+    \bottomrule
+    \textit{Note: $N=43,605$}
+    \end{tabular}
+    \label{tab:cluster_count}
+
+\end{table}
+
+These archetypes are generalized for analysis, but examples from each one show the actors, tone, and sentiment commonly associated with each archetype. The most common archetype is \textit{internal governance}, which predominantly deals with government policies and remains largely diplomatic in daily proceeding. It predominantly uses the government and its institutions as the ``self'' identification of the actor or group, and it identifies the ``other'' more politely than archetypes like \textit{institutional othering}. An example of this can be found in a segment of debate by Ilija Filipovi{\'c} (\ac{HDZ}) on \ac{BiH}'s intelligence and security policy (\citealp{mochtak2022}; Translated via OPUS-MT):
+\begin{quote}
+The thing needs to be resolved, if this is the question, this is really a matter of an interstate agreement. If we're looking at such a thing, then it really isn't the place here, but maybe these things that you've been talking about can be brought into line with legal and international legal practice, international legal standards and domestic legislation to put it in place on the Joint Commission instead...
+\end{quote}
+He uses the term ``we'' to address his colleagues in the parliament, and avoids combative language or direct conflict with other parties or members of parliament. This archetype also largely aligns with topics directly related to policy rather than history, ethnic groups, or even the Bosnian people as a whole. This context regarding this archetype explains the significant frequency of it among the segments coded, and shows that political speech does maintain the decorum expected of parliament.
+
+The second archetype, and one of particular interest is the \textit{institutional othering}. This archetype is the second most common across the dataset analyzed, and it exemplifies the internal tensions that persist in \ac{BiH}. This archetype often includes direct condemnation of politicians, political parties, institutions, or ethnicities with loaded language. The use of routine definition and moral agency is also common, and they are often used to strengthen the speaker's point and attack the ``other.'' Although this rhetoric can include ``self'' identification with political party or ethnic group, it usually includes some from of governmental identification regardless of any others. An example of this archetype's use can be found in a segment of Mladen Bosi{\'c}'s (\ac{SDS}) debate on the proposal of a law regarding the termination of laws (\citealp{mochtak2022}; Translated via OPUS-MT):
+\begin{quote}
+Should it be said that these for the Court and the Prosecutor's Office are certainly second-rate victims of Serbs, and first-class victims are known. And all mothers, regardless of faith, nation and color, have the same pain for lost children. This is against all morals and such selectivity, which is easy to express in numbers, created in \ac{RS} a conviction that it is not about justice but at the very least about the selective justice of the Court and the \ac{BiH} Prosecutor's Office...
+\end{quote}
+This segment includes many of the common elements found in this archetype, such as the the direct mention of his personal ethnic group and the entity of \ac{RS}, moral agency and condemnation of other \acp{MP} and parties, and undermining of \ac{BiH}'s institutions. The use of ``victims'' can also be found in this and other archetypes, and there can be a variety of direct attacks on character, morals, or ethnicity that further weaponize and charge the language used. \textit{Institutional othering} does not always include such charged language, because it also includes simple disagreements over policy that did not fit into \textit{internal governance}, but its use is very common in throughout debate in {BiH}. The use of \textit{institutional othering} also carries importance to \ac{OS}, as internal othering often perpetuates a particular narrative that the actor is portraying, either of the state, party, or ethnic group (\citealp[pg.~613-614]{subotic2015}; \citealp[pg.~223-224]{davidPolicingMemoryBosnia2019}). 
+% Fix MP acronym & Find citations if possible
+
+The next three archetypes are all related, but they vary in their framings and devices used. The first of these is \textit{existential statehood}, which primarily uses the identification with the state and routines, while claiming that there is an existential threat to one of the actors identities. There are similarities to \textit{institutional othering}, but rather claims that someone or something is a direct threat to the state, its identity, or a smaller subset. An example of this can be found in a segment of Drago Ljubi{\v c}i{\'c}'s (\ac{SNSD}) answers to another MP about Islamic radicalism (\citealp{mochtak2022}; Translated via OPUS-MT):
+\begin{quote}
+    These groups are not without organisation, they are, in my own opinion, they are not without financial support, and it is even possible to have political support in certain circles in the \acl{FBiH} and, as such, are certainly a danger and a threat to security in \ac{BiH}. Perhaps, gentlemen, they are also tied to the latest developments in the \acl{FBiH} regarding meetings and posters for the transition of Orthodox and Catholics to Islam and who knows what it means after this...
+\end{quote}
+This quote highlights a few key aspects of this archetype, such as something---radical Islamic groups---causing disruptions or threats to \iac{FBiH} and \ac{BiH}. Similarly, it leverages the religious ties of each ethnic group and claims that Islamic groups are converting Christians, which is a threat to ethnic identities \citep[pg.~759]{kinnvall2004}. This is one way \acp{MP} leverage this archetype, but another issue that is often brought up is \ac{BiH}'s entry into international organisations such as the \ac{EU}, \iac{WTO}, and \iac{NATO}, and any actions that threaten this. This existentialism plays a large role in Bosnian politics, and is one of the primary ways that \acp{MP} weaponize the state's identity with particular framings. \textit{Existential statehood} also provides insight into the way \ac{OS} is sought by \acp{MP} in the name of the state or other identities \citep[pg.~614]{subotic2015}.
+
+The second form of leveraging state identity comes as \textit{civic/moral statehood}, which frames discourse in terms of civic duty, rights, and shared moral standards. This is typically used in more neutral or positive matters of obligations of the state, \acp{MP}, and citizens, and it often aligns with set frameworks, narratives, and routines in place. A segment of Hazim Ran{\v c}i{\'c}'s (\ac{SDA}) debate on public procurement policy highlights these characteristics well (\citealp{mochtak2022}; Translated via OPUS-MT):
+\begin{quote}
+    The first thing we insist on for ourselves, not for the sake of ourselves, or for the club [party], or both, but for the benefit of all citizens and all institutions involved in the public procurement process. Thus, changes and additions are aimed at facilitating and improving the process of public procurement. And, regarding the position of the clubs [parties], so I just want to say that the club [party] of Bosniaks has the same position as the club [party] of Croats in the House of the People of the Parliamentary Assembly of BiH...
+\end{quote}
+Ran{\v c}i{\'c} highlights the obligations of the institutions of \ac{BiH} and the \acp{MP} to act in the interest of all citizens and frames the issue as one that serves a civic duty. This form of \textit{civic statehood} leverages the routines and identity of the state and reinforces them, largely in positive framings. Unlike \textit{existential statehood}, this does not frame something as a threat to the established norms, but rather as a reinforcement and obligation to uphold them, further perpetuating \ac{OS} (\citealp[pg.~615-616]{subotic2015}; \citealp[pg.~251-253]{mitzenOntologicalSecurityWorld2006}; \citealp[pg.~276-277]{weldes1996}).
+% ADD MORE!!!
+
+The final archetype, \textit{historical/mneomonic statehood}, relies on collective memory and historical context to frame certain issues or topics. This form of discourse has been covered by \citep[pg.~216-219]{davidPolicingMemoryBosnia2019} in \ac{BiH}, and this form of memory politics is common among the \ac{OS} literature (\citealp[pg.~614-615]{subotic2015}; \citealp[pg.~755-757]{kinnvall2004}). Collective memory and historical context, particularly in a national context drive much of political and social discourse, even if not directly mentioned, and the use of this archetype perpetuates these memories \citep[pg.~755-757]{kinnvall2004}. 
+
+
+% So, I think we have rarely shown understanding of what the international community has said, and so we said that by this law we are violating the CEFTA, we are violating the Stabilisation Agreement, we are jeopardising our path towards the WTO, and the Commission has indeed made one rejection, or a moment has stopped to make sure of all that the representatives of the European Commission have claimed
+
+
+\section{Topic Analysis}
+
+% Discuss The clustering for the archetypes \ref{tab:grouped_clusters}
+% Include quotes that match the archetype for each one
+
+
+
+
+
+% Discuss the overlap of topics across parties \ref{fig:overlap_heatmap}
+% Top 10 topics per party (Inlcudes the -1 group from BERTopic)
+% Mention the outliers (noise) and the parameters used by BERTopic
+
+
+
+% Sentiment ~ Party + Topic
+% Discuss the sentiment coefficients for the parties (SNSD & SDS = Negative)
+
+% Discuss the sentiment coefficients by topic (Also mention Srebrenica and Stray Dogs as unique cases)
+
+% Discuss Chi^2 and pearsons residuals of party and archetype
+% Certain parties leverage certain archetypes (Formation of identty and routine)
+
+% Discuss the Interactions 
+
+
+
+
+\begin{figure}[htbp]
+    \centering
+    \caption{Overlap}
+    \includegraphics[width=0.9\textwidth]{Figures/topic_overlap_heatmap.pdf}
+    \label{fig:overlap_heatmap}
+\end{figure}
+
+
+
+\begin{figure}[htbp] % Using 'float' package
+    \centering
+    \begin{minipage}{0.90\textwidth} % Matches \captionsetup width
+        \centering
+        \caption{\textsf{Mixed-Effects Model estimates for selected topics. Topics include the 10 most common, 5 most negative, 5 most positive, and 2 selected for comparison}}
+        \includegraphics[width=\textwidth]{Figures/topic_forest.pdf}
+        \label{fig:topic_forest}
+    \end{minipage}
+\end{figure}
+
+
+
+
+
+
+
+\begin{table}[htbp]
+    \centering
+    \caption{Pearson Residuals: Party Identity vs. Rhetorical Archetypes}
+    \label{tab:chi_squared_residuals}
+    \small
+    \begin{tabular}{l S[table-format=-1.3] S[table-format=-1.3] S[table-format=-1.3] S[table-format=-1.3] S[table-format=-1.3]}
+        \toprule
+        & \multicolumn{5}{c}{\textbf{Rhetorical Archetypes (Pearson Residuals)}} \\
+        \cmidrule(lr){2-6}
+        \textbf{Party} & {Civic/Moral} & {Existential} & {Mneomonic} & {Institutional} & {Internal} \\
+        & {Statehood} & {Statehood} & {Statehood} & {Othering} & {Governance} \\
+        \midrule
+        HDZ BiH   & 0.099  & -0.120 & -4.713 & -1.277 & 2.171 \\
+        Koalicija & 1.908  & -3.643 & -0.974 & -5.812 & 5.088 \\
+        SBB       & 5.812  & -1.185 & 0.161  & -4.972 & 0.344 \\
+        SBiH      & -0.685 & -3.692 & 0.929  & -2.887 & 4.284 \\
+        SDA       & 4.199  & -0.774 & -2.297 & -7.705 & 3.489 \\
+        SDP BiH   & 1.390  & 3.198  & 5.461  & -3.767 & -2.012 \\
+        SDS       & -1.264 & -3.816 & -0.705 & 4.582  & 0.449 \\
+        SNSD      & -9.671 & -0.247 & 2.440  & 15.685 & -4.650 \\
+        none      & 5.568  & 12.591 & -2.923 & -6.433 & -6.320 \\
+        \midrule
+        \multicolumn{6}{l}{\textit{Notes}: $\chi^2 = 1047.52$, $p < 0.001$, Cramer's $V = 0.0775$.} \\
+        \multicolumn{6}{l}{Residuals $|r| > 1.96$ indicate significant association at $\alpha = 0.05$.} \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+
+
+
+\begin{table}[htbp]
+\centering
+\caption{Mixed Effects Linear Regression: Sentiment Drivers in the BH Parliament}
+\label{tab:regression_main}
+\small
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Variable} & \textbf{Coef.} & \textbf{Std. Err.} & \textbf{z} & \textbf{P$>|z|$} \\
+\midrule
+\textit{Fixed Effects (Intercept)} & 0.434 & 0.026 & 16.63 & 0.000 \\
+\textbf{Rhetorical Archetype (Ref: Civic Statehood)} \\
+Existential Statehood & -0.141 & 0.025 & -5.67 & 0.000 \\
+Institutional Othering & -0.176 & 0.021 & -8.29 & 0.000 \\
+Internal Governance & -0.068 & 0.019 & -3.50 & 0.000 \\
+\textbf{Political Party (Ref: HDZ BiH)} \\
+SNSD & -0.085 & 0.023 & -3.71 & 0.000 \\
+SDS & -0.067 & 0.027 & -2.50 & 0.012 \\
+Koalicija & -0.047 & 0.022 & -2.14 & 0.032 \\
+\textbf{Topic Highlights (Ref: State Coordination)} \\
+Terrorism (Topic 30) & -0.208 & 0.039 & -5.35 & 0.000 \\
+War Crimes (Topic 78) & -0.218 & 0.083 & -2.63 & 0.009 \\
+Corruption (Topic 23) & -0.150 & 0.032 & -4.71 & 0.000 \\
+\midrule
+\textbf{Random Effects} & \textbf{Var.} & \textbf{SD} & & \\
+Speaker (Fullname) & 0.002 & 0.045 & & \\
+\bottomrule
+\multicolumn{5}{l}{\textit{Note: N=13,695. Interaction terms omitted for brevity; see Appendix B for full model.}} \\
+\end{tabular}
+\end{table}
+
+

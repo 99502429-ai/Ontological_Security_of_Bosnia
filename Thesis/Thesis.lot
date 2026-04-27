@@ -2,8 +2,20 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Total sample size throughout data preparation}}{12}{table.caption.25}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Training performance by iteration}}{14}{table.caption.27}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Total count and relative frequency of substantive segments by classification}}{17}{table.caption.28}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Total count of segments per rhetorical archetype}}{19}{table.caption.30}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Pearson Residuals: Party Identity vs. Rhetorical Archetypes}}{23}{table.caption.38}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Mixed Effects Linear Regression: Sentiment Drivers in the BH Parliament}}{24}{table.caption.39}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {D.1}{\ignorespaces Model performance statistics including individual classification performance and overall performance}}{IV}{table.caption.41}%
+\contentsline {table}{\numberline {D.2}{\ignorespaces Total count of classifications}}{V}{table.caption.42}%
+\contentsline {table}{\numberline {D.4}{\ignorespaces Mixed Linear Model: Sentiment as a Function of Topic, Archetype, and Party}}{V}{table.D.4}%
+\contentsline {table}{\numberline {D.3}{\ignorespaces Rhetorical Archetypes: Grouped Classification Probabilities (N=55,976)}}{VII}{table.caption.43}%
